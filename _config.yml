@@ -27,3 +27,5 @@ components:
   sosat: "sosat"
   cloud-sre: "doctor marmot ossplatform apiplatform"
   Bluemix: "sosat doctor marmot gre armada general_documentation netcool schematics ossplatform"
+
+theme: jekyll-theme-cayman
