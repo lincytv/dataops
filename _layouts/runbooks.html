@@ -1,0 +1,75 @@
+{% include header.html %}
+{% assign toc = site.baseurl | replace: "/", " " | strip | split:" " | first  %}
+<div id="ibm-leadspace-head">
+    <div class="container">
+        <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+    </div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-sm-3 hidden-print">
+    {% case toc %}
+    {% when 'sosat' %}
+    {% include sosat-toc.html %}
+    {% when 'cloud-sre' %}
+    {% include cloud-sre-toc.html %}
+    {% else %}
+    {% include docs-toc.html %}
+    {% endcase %}
+</div>
+<div class="col-sm-9">
+    {{ content }}
+        <div class="panel panel-primary">
+            <div class="panel-heading" role="tab" id="full-list" data-toggle="collapse" href="#full-list-tbl" aria-expanded="false" aria-controls="full-list-tbl">
+                <h4 class="panel-title">
+                    Full Runbook List
+                </h4>
+            </div>
+
+            <div id="full-list-tbl" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="full-list">
+                <div>
+                    <table id="runbooktable" data-toggle="table" class="runbookTable" data-sort-name="related-service" data-sort-order="asc"  data-filter-control="true">
+                        <thead>
+                            <tr>
+                                <th data-field="related-service" data-sortable="true" data-filter-control="input">Related Service</th>
+                                <th data-field="runbook-name" data-sortable="true" data-formatter="nameLink" data-filter-control="input">Runbook</th>
+                                <th data-field="type" data-sortable="true" data-filter-control="select">Type</th>
+                                <th data-field="description" data-filter-control="input">Description</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+<script>
+    $(function(){
+      var frag = window.location.hash.substring(1);
+      var url = "../../assets/json/"+ frag + "-runbook-list.json"
+      $("#runbooktable").attr("data-url", url);
+      $("#runbooktable").bootstrapTable('refresh');
+
+      $("#runbooklist li").click(function(){
+          var li_selected = $("a",this).attr('href').split('#')[1]
+          data_url = "../../assets/json/"+ li_selected + "-runbook-list.json"
+          $("#runbooktable").bootstrapTable('refresh',{url:data_url});
+      });
+
+    });
+    function nameLink(value, row) {
+        return '<a href= {{ site.baseurl }}' + row.link + '>' + value + '</a>';
+    }
+    function detailsLink(value, row) {
+        return '<a href= {{ site.baseurl }}' + row.link + '> Details </a>';
+    }
+
+</script>
+
+
+{% include footer.html %}

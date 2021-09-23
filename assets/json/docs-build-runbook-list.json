@@ -1,0 +1,11 @@
+[
+  {
+    "runbook-name": "IBM Cloud Docs Build",
+    "type": "Informational",
+    "description": "IBM Cloud Docs Build Overview",
+    "related-service": "armada-deploy",
+    "link": "/docs/runbooks/docs-build/index.html",
+    "title": "IBM Cloud docs build overview",
+    "layout": "default"
+  }
+]

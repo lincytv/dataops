@@ -1,0 +1,18 @@
+# Program: docker_prune_pre_v17.sh
+# Rev: 1.0.0
+# Created by: Alejandro Torres Rojas
+# Date: 29-May-2019
+# Developed on bash
+# Tested on bash macOS Mojave
+# To Cleanup Docker dead containers, volumes and images
+
+#!/bin/bash
+
+# Remove dead containers and their volumes
+docker ps -f status=dead --format '{{ .ID }}' | xargs -r docker rm -v
+# Remove dangling volumes
+docker volume ls -q -f 'dangling=true' | xargs -r docker volume rm
+# Remove untagged ("<none>") images
+docker images --digests --format '{{.Repository}}:{{.Tag}}@{{.Digest}}' | sed -rne 's/([^>]):<none>@/\1@/p' | xargs -r docker rmi
+# Remove dangling images
+docker images -aq -f 'dangling=true' | xargs -r docker rmi

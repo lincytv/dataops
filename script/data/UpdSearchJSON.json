@@ -1,0 +1,13 @@
+{
+  "description": "Use to update the components listed by target under the -_includes/docs-toc.html file. Check the .readme file for more information of the JSON file",
+  "hlp_in": "Defaults to ../_includes/docs-tocs.html, use --in <file>, if you want to use a different file.",
+  "hlp_ln_2_add_cmpnnts": "Updates 'assign valid_components = ... , use --r <string> to use a differnt line.",
+  "hlp_out": "Defaults to ../assets/simple-jekyll-search/search.json, use --out <file>, if you want to use a different file..",
+  "hlp_str_2_match": "search string to match in the JSON file  by default is 'assign valid_components =', unless a vales passed by --s <str>.",
+  "html_file":"../_includes/docs-toc.html",
+  "json_file":"../assets/simple-jekyll-search/search.json",
+  "ln_2_add_cmpnnts":"assign valid_components = \"%s\" | split: \" \" ",
+  "runbook_loc": "/../docs/",
+  "str_2_match":"assign valid_components =",
+  "version": "1.0.0"
+}

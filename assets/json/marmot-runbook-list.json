@@ -1,0 +1,254 @@
+[
+  {
+    "runbook-name": "st_marmot_connectivity - Monitoring Marmot network packet loss rate",
+    "type": "Alert",
+    "description": "This alert indicates a network issue in Marmot VMs.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_connectivity.html",
+    "title": "st_marmot_connectivity - Monitoring Marmot network packet loss rate",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_ace_doc - Monitoring ACE console doc access",
+    "type": "Alert",
+    "description": "This alert indicates an issue with Marmot heartbeat metrics",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_ace_doc.html",
+    "title": "st_ace_doc - Monitoring ACE console doc access",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_openfiles - Marmot system health of Influxdb service",
+    "type": "Alert",
+    "description": "This alert indicates an issue with the health of Influxdb service",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_openfiles.html",
+    "title": "st_marmot_openfiles - Marmot system health of Influxdb service",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_monitor_availability - Monitoring system unavailable caused by network related issues",
+    "type": "Alert",
+    "description": "This alert indicates that the monitoring system is unavailable. Network between monitoring agent and monitoring collector is down.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_monitor_availability.html",
+    "title": "st_monitor_availability - Monitoring system unavailable caused by network related issues",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_disk_write - Monitoring Marmot VM read-only access",
+    "type": "Alert",
+    "description": "This alert indicates an issue with read-only access for Marmot VM file systems.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_disk_write.html",
+    "title": "st_marmot_disk_write - Monitoring Marmot VM read-only access",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_infra_influx - Monitoring Influxdb service availability in SL service account",
+    "type": "Alert",
+    "description": "This alert indicates a loss of Influxdb service availability in SL service account.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_infra_influx.html",
+    "title": "st_infra_influx - Monitoring Influxdb service availability in SL service account",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_estado - Monitoring metrics are missing",
+    "type": "Alert",
+    "description": "Indicates a lack of recent provisioning and consumption metrics",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_estado.html",
+    "title": "st_marmot_estado - Provisioning and consumption metrics are not being collected",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_monitor_connection - Marmot environment network connection check",
+    "type": "Alert",
+    "description": "This alert indicates an issue with network connectivity between agent and collector",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_monitor_connection.html",
+    "title": "st_monitor_connection - Marmot environment network connection check",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_passwd_expiration - an instances password is about to expire or has expired",
+    "type": "Alert",
+    "description": "This alert indicates an issue with api-2 in bluemix local environment",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_passwd_expiration.html",
+    "title": "st_passwd_expiration - an instances password is about to expire or has expired",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_local_os_account - Monitoring function users for monitor and doctor teams",
+    "type": "Alert",
+    "description": "This alert indicates an issue with the function users.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_local_os_account.html",
+    "title": "st_local_os_account - Monitoring function users for monitor and doctor teams",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_monitor_heartbeat - Marmot environment heartbeat alert",
+    "type": "Alert",
+    "description": "This alert indicates an issue with Marmot heartbeat metrics",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_monitor_heartbeat.html",
+    "title": "st_monitor_heartbeat - Marmot environment heartbeat alert",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_disk - Monitoring Marmot VM disk space",
+    "type": "Alert",
+    "description": "This alert indicates an issue with disk usage for Marmot VM file systems.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_disk.html",
+    "title": "st_marmot_disk - Monitoring Marmot VM disk space",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_keeplive - Monitoring Marmot environment handoff",
+    "type": "Alert",
+    "description": "This alert indicates an environmental handoff completed",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_keeplive.html",
+    "title": "st_keeplive - Local monitoring heartbeat",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Marmot data backup and restore",
+    "type": "Informational",
+    "description": "Marmot data backup and restore",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/Runbook-Marmot-databackup-restore.html",
+    "title": "bluemix-ops - Monitoring data backup and restore",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_cpu - Monitoring Marmot VM CPU usage",
+    "type": "Alert",
+    "description": "This alert indicates an issue with CPU usage for Marmot VMs in SL service account and local environments.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_cpu.html",
+    "title": "st_marmot_cpu - Monitoring Marmot VM CPU usage",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Monitoring Marmot environment network connectivity",
+    "type": "Alert",
+    "description": "This alert indicates an environmental network issue in Marmot VMs.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/Runbook-Marmot-env-connectivity.html",
+    "title": "bluemix-ops - Monitoring environment network connectivity",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_process - Monitoring process availability of Marmot VMs",
+    "type": "Alert",
+    "description": "This alert indicates an issue with process availability of Marmot VMs in SL service account",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_process.html",
+    "title": "st_marmot_process - Monitoring process availability of Marmot VMs",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_agent_mon - Monitoring metrics timeout",
+    "type": "Alert",
+    "description": "This alert indicates the corresponding metrics did not arrive at the monitoring back-end in time.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_agent_mon.html",
+    "title": "st_agent_mon - Monitoring metrics timeout",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_cpu_90 - Monitoring Marmot VM CPU usage above 90%",
+    "type": "Alert",
+    "description": "This alert indicates an issue with CPU usage for Marmot VMs in SL service account and local environments.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_cpu_90.html",
+    "title": "st_marmot_cpu_90 - Monitoring Marmot VM CPU usage above 90%",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_memory - Marmot system memory usage rate of VMs",
+    "type": "Alert",
+    "description": "This alert indicates an issue with system memory usage rate of Marmot VMs",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_memory.html",
+    "title": "st_marmot_memory - Marmot system memory usage rate of VMs",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Monitoring ACE console logout function",
+    "type": "Alert",
+    "description": "This alert indicates that ACE console function is down.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/Runbook-Marmot-ace-agent.html",
+    "title": "bluemix-ops - Monitoring ACE console function",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_baremetal_unresponsive - Monitoring Marmot network connectivity",
+    "type": "Alert",
+    "description": "This alert indicates a network issue in Marmot VMs.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_baremetal_unresponsive.html",
+    "title": "st_baremetal_unresponsive - Monitoring network connectivity",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_env_control - Monitoring Marmot environment handoff",
+    "type": "Alert",
+    "description": "This alert indicates an environmental handoff completed",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_env_control.html",
+    "title": "st_env_control - Monitoring environment handoff",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Monitoring metrics are missing",
+    "type": "Alert",
+    "description": "Indicates a lack of recent provisioning and consumption metrics",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/Runbook-Marmot-marmot.html",
+    "title": "bluemix-ops - Provisioning and consumption metrics are not being collected",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_estado_push - Monitoring metrics pushed from Estado to Marmot",
+    "type": "Alert",
+    "description": "This alert indicates a loss of Estado metrics",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_estado_push.html",
+    "title": "st_estado_push - Monitoring metrics pushed from Estado to Marmot",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Marmot General Information",
+    "type": "Informational",
+    "description": "Marmot General Information",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/Runbook-Marmot-general-information.html",
+    "title": "bluemix-ops - Monitoring General Information",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_disk_90 - Monitoring Marmot VM disk space above 90%",
+    "type": "Alert",
+    "description": "This alert indicates an issue with disk usage for Marmot VM file systems.",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_disk_90.html",
+    "title": "st_marmot_disk_90 - Monitoring Marmot VM disk space above 90%",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "st_marmot_infoinput - Marmot api-2 in bluemix local environment",
+    "type": "Alert",
+    "description": "This alert indicates an issue with api-2 in bluemix local environment",
+    "related-service": "marmot",
+    "link": "/docs/runbooks/marmot/st_marmot_infoinput.html",
+    "title": "st_marmot_infoinput - Marmot api-2 in bluemix local environment",
+    "layout": "default"
+  }
+]

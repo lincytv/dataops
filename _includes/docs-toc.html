@@ -1,0 +1,29 @@
+<nav role="navigation" class="well well-sm">
+    <ul class="toc nav nav-pills nav-stacked">
+        <!-- Html Elements for Search -->
+        <li class="tocheader" id="search-container">
+            <input type="text" id="search-input" placeholder="search ...">
+            <ul id="results-container" class="toc nav nav-pills nav-stacked"></ul>
+        </li>
+        <li><hr class="search-separator"></li>
+
+        <li class="tocheader dropdown">
+            <a class= "dropdown-toggle" data-toggle="dropdown" role="button" href="#" >Runbooks <span class="caret"></span></a>
+            <ul id="runbooklist" class="dropdown-menu">
+                <li><a href="{{ site.baseurl }}/docs/runbooks/runbooks.html#GettingStarted" data-proofer-ignore>Getting started</a></li>
+                <li><a href="{{ site.baseurl }}/docs/runbooks/runbooks.html#apiplatform" data-proofer-ignore>apiplatform</a></li>
+                <li><a href="{{ site.baseurl }}/docs/runbooks/runbooks.html#ciebot" data-proofer-ignore>ciebot</a></li>
+                <li><a href="{{ site.baseurl }}/docs/runbooks/runbooks.html#palente" data-proofer-ignore>palente</a></li>
+                <li><a href="{{ site.baseurl }}/docs/runbooks/runbooks.html#schematics" data-proofer-ignore>schematics</a></li>
+            </ul>
+        </li>
+
+        <li class="tocheader dropdown">
+            <a class= "dropdown-toggle" data-toggle="dropdown" role="button" href="#">Updating Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="{{ site.baseurl }}/docs/doc_updates/runbook_updates.html" data-proofer-ignore {% if page.url == "{{ site.baseurl }}/docs/doc_updates/runbook_updates.html" %}class="active"{% endif %}>Adding runbooks</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>

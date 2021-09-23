@@ -1,0 +1,6 @@
+<div class="alert alert-danger" role="alert">
+  If a PagerDuty incident is created by New Relic, <strong>Do not resolve the PagerDuty incident yourself!</strong>  Monitoring will detect that the problem is fixed and automatically resolve the incident. If the problem is not fixed  a new PagerDuty incident will not be opened.
+  If you are not sure of the source of the incident, look at the PagerDuty details tab,if you see a URL like the follow, <strong>URL: https://alerts.newrelic.com/accounts/1926897/incidents/59674793</strong>, New Relic is the originator.<br><br>
+  If an indicent is resolved and it keeps open for unsual period of time in PagerDuty, review <a href="https://alerts.newrelic.com/accounts/1926897/incidents?offset=0&type=open">New Relic Incidents</a>, If you don't see the PagerDuty listed there,
+  close it form PagerDuty and open a new entry at <a href="https://github.ibm.com/cloud-sre/ToolsPlatform/issues/new">Ops-Platform-Onshift-Report</a>
+</div>

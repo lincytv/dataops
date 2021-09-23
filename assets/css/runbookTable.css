@@ -1,0 +1,14 @@
+table.runbookTable tr:first-child th {
+  border-top: 0;
+}
+table.runbookTable tr:last-child td {
+  border-bottom: 0;
+}
+table.runbookTable tr td:first-child,
+table.runbookTable tr th:first-child {
+  border-left: 0;
+}
+table.runbookTable tr td:last-child,
+table.runbookTable tr th:last-child {
+  border-right: 0;
+}

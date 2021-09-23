@@ -1,0 +1,17 @@
+---
+
+repos:
+  armada-deploy:
+    name: armada-deploy
+    link: https://github.ibm.com/alchemy-containers/armada-deploy
+    issue: https://github.ibm.com/alchemy-containers/armada-deploy/issues/new
+
+  armada-runtime:
+    name: armada-runtime
+    link: https://github.ibm.com/alchemy-containers/armada-runtime/issues/new
+    issue: https://github.ibm.com/alchemy-containers/armada-runtime/issues/new
+    
+  armada-envs:
+    name: armada-envs
+    link: https://github.ibm.com/alchemy-containers/armada-envs
+    issue: https://github.ibm.com/alchemy-containers/armada-envs/issues/new

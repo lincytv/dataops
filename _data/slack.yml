@@ -1,0 +1,9 @@
+---
+
+channels:
+  armada-runtime:
+    name: '#armada-rutime'
+    link: https://ibm-argonauts.slack.com/messages/C52JJA0EP/
+  armada-deploy:
+    name: '#aramda-deploy'
+    link: https://ibm-argonauts.slack.com/messages/C54G8PWUF/

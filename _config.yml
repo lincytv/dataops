@@ -1,0 +1,29 @@
+name: IoT Foundation
+markdown: kramdown
+highlighter: rouge
+exclude: [config, script, Gemfile]
+encoding: utf-8
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+
+github_branch: master
+github_host: https://github.ibm.com
+target: ibm
+
+# Front Matter settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # use this default only for pages not postings
+    #values:
+    #layout: "default" # use the default layout removed looks like a new versiom of jekyll at git is adding the layout
+    # at the JSON search file since it has a layout of null. removing this stop addeing default layout on it.
+    # https://github.ibm.com/cloud-sre/ToolsPlatform/issues/9797
+
+components:
+  default: "sosat doctor marmot gre armada general_documentation netcool schematics ossplatform apiplatform"
+  sosat: "sosat"
+  cloud-sre: "doctor marmot ossplatform apiplatform"
+  Bluemix: "sosat doctor marmot gre armada general_documentation netcool schematics ossplatform"

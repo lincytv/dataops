@@ -1,0 +1,105 @@
+html {
+	position: relative;
+  	min-height: 100%;
+}
+
+body{
+	margin-bottom: 110px;
+}
+
+#IBMLogo {
+	position: absolute;
+	display: block;
+	height: 20px;
+	right: 27px;
+	top: 0px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	z-index: 1001;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.footer {
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 60px;
+	text-align: center;
+  	border-top: 1px solid #E5E5E5;
+  	background-color: #EEEEEE;
+  	padding: 20px 0;
+}
+
+#ibm-leadspace-head {
+    margin-bottom: 10px;
+	background-color: #EEE;
+    border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 1em;
+}
+
+img.decoration {
+	float: right;
+	width: 50%;
+	padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#classification {
+	text-align: right;
+	position: absolute;
+	right: 10px;
+}
+    
+.launchpad {
+	margin-top: 4em;
+	text-align: center;
+}
+
+.launchpad .row {
+	margin-bottom: 2em;
+}
+
+.launchpad .item {
+    position: relative;
+}
+
+.launchpad .disabled {
+	color: #888;
+}
+ 
+.launchpad .item a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+    background-color: #fff;
+    opacity: 0;
+}
+
+.launchpad .glyphicon {
+	font-size: 5em;
+}
+
+.toc .active {
+	font-weight: bold;
+}
+
+#accordion .panel-heading {
+	cursor: pointer; 
+	cursor: hand;
+}
+
+blockquote { font-size: 14px; }
+
+pre code{
+	white-space: pre;
+}

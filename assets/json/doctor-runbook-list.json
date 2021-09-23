@@ -1,0 +1,1532 @@
+[
+  {
+    "runbook-name": "How to create a case to Armada team",
+    "type": "Informational",
+    "description": "This Runbook is for how to create a case to Armada team.",
+    "related-service": "IKS",
+    "link": "/docs/runbooks/doctor/Runbook-How-To-Create-Case-To-Armada-Team.html",
+    "title": "How to create a case to Armada team",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Handle missing route to mbus on inception VM",
+    "type": "Informational",
+    "description": "How to handle missing route to mbus on inception VM.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_missing_route_to_mbus_on_inception_vm.html",
+    "title": "Handle missing route to mbus on inception VM",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Runbook Postgres Server Down",
+    "type": "Alert",
+    "description": "RETIRED - This incident is created after Prometheus monitor detects a stopped Postgres database server.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-Postgres-Server-Down.html",
+    "title": "RETIRED - Prometheus monitor detects a stopped Postgres database server",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor BBO script could not be executed correctly - runbook for GRE",
+    "type": "Alert",
+    "description": "This alert indicates a BOSHCLI Script can not be executed using BBO.",
+    "related-service": "bbo",
+    "link": "/docs/runbooks/doctor/Runbook_BBO_Exec_Fail_GRE.html",
+    "title": "RETIRED Doctor BBO script could not be executed correctly - runbook for GRE",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Disk Usage is High",
+    "type": "Alert",
+    "description": "How to solve an alert for high run disk usage.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Disk_Usage_is_High.html",
+    "title": "Disk Usage is High",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Doctor PostgreSQL connections exceed",
+    "type": "Alert",
+    "description": "RETIRED -  This Runbook is for PagerDuty alerts when PostgreSQL connections exceed the max connections.",
+    "related-service": "PostgreSQL",
+    "link": "/docs/runbooks/doctor/Runbook_Doctor_PostgreSQL_Connections.html",
+    "title": "RETIRED - Doctor PostgreSQL connections exceed",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Backend Service URL Down",
+    "type": "Alert",
+    "description": "Runbook Doctor Backend Service Down",
+    "related-service": "doctor_backend",
+    "link": "/docs/runbooks/doctor/Runbook_Backend_Serivce_Down_Watson.html",
+    "title": "RETIRED Runbook Doctor Backend Service Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to reload Doctor agent",
+    "type": "Alert",
+    "description": "This runbook will guide Doctor operator how to reload Doctor agent.",
+    "related-service": "admin",
+    "link": "/docs/runbooks/doctor/Runbook_how_to_reload_Doctor_agent.html",
+    "title": "How to reload Doctor agent",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Metrics data is older than two hours",
+    "type": "Alert",
+    "description": "Metrics data is older than two hours. Check your IBM Cloud Doctor configuration and connection.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Metrics_data_is_older_than_two_hours.html",
+    "title": "Metrics data is older than two hours",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Blink Ace Service is Down",
+    "type": "Alert",
+    "description": "This Runbook is for PagerDuty alerts when the doctor blink ace service is down.",
+    "related-service": "doctor_blink_ace",
+    "link": "/docs/runbooks/doctor/Runbook_Doctor_Blink_ACE_Down.html",
+    "title": "Doctor Blink ACE Service is Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Monitor Instance Down",
+    "type": "Alert",
+    "description": "RETIRED - Alert triggered when Prometheus fails to get monitor metrics. Job X has been down for X minutes.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-Monitor-Instance-Down.html",
+    "title": "RETIRED - Prometheus failed to get monitoring metrics (Monitor-Instance-Down)",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Pirvate IAM Token Error",
+    "type": "Alert",
+    "description": "Runbook Pirvate IAM Token Error",
+    "related-service": "doctor_private_iam_oidc_token",
+    "link": "/docs/runbooks/doctor/Runbook_Monitor_Private_IAM_Token.html",
+    "title": "RETIRED Runbook Pirvate IAM Token Error",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Cloud Resource Usage APIs",
+    "type": "Alert",
+    "description": "This runbook is for PagerDuty alerts for monitoring the following APIs for environments that are handed over to SRE/customers.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_cloud_resource_usage_APIs.html",
+    "title": "Doctor Cloud Resource Usage APIs",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Blink Service is Down",
+    "type": "Alert",
+    "description": "This Runbook is for PagerDuty alerts when the doctor blink service is down.",
+    "related-service": "blink_agent",
+    "link": "/docs/runbooks/doctor/Runbook_Doctor_Blink_ibm_allenvs_network_doctor_blink.html",
+    "title": "Doctor Blink Service ibm.allenvs.network.doctor.blink is Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Problems logging into Doctor SSH Jumpbox",
+    "type": "Alert",
+    "description": "This runbook provides instructions on how to fix problems users may have SSH'ing into the BoshCLI SSH Jumpbox.",
+    "related-service": "jumpbox",
+    "link": "/docs/runbooks/doctor/Runbook_problems_logging_into_SSH_jumpbox.html",
+    "title": "Problems logging into Doctor SSH jumpbox",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook consul failed alert",
+    "type": "Alert",
+    "description": "Consul Failed Alert",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Consul_Failed_Alert.html",
+    "title": "Consul Failed Alert",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Function of Access > App & User page on Doctor portal not work",
+    "type": "Alert",
+    "description": "User cannot use Access > App & User page on Doctor portal.",
+    "related-service": "cicd",
+    "link": "/docs/runbooks/doctor/Runbook_App_and_User_page_function_not_work.html",
+    "title": "Function of Access > App & User page on Doctor portal not work.",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "TipSelfHealing Down",
+    "type": "Alert",
+    "description": "This alert indicates a self-healing heartbeat error.",
+    "related-service": "tipselfhealing",
+    "link": "/docs/runbooks/doctor/Runbook_TipSelfHealing_Down.html",
+    "title": "TipSelfHealing Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Echometer Guide",
+    "type": "Informational",
+    "description": "Doctor Echometer Guide",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Doctor_Echometer_Guide.html",
+    "title": "Doctor Echometer Guide",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Actions for Certificates are Expiring",
+    "type": "Alert",
+    "description": "What actions to take when certificates are about to expire",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_certificates_expiring.html",
+    "title": "Actions for Certificates are Expiring",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Root password check in failed",
+    "type": "Alert",
+    "description": "Fix issues when root password is failed to check-in.",
+    "related-service": "admin",
+    "link": "/docs/runbooks/doctor/Root_password_check_in_failed.html",
+    "title": "Root password check in failed",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Sync Script Failed",
+    "type": "Alert",
+    "description": "This alert indicates a failure when transferring the scripts from ibm github script repository to target environment bosh cli VM.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Sync_Script_Failed.html",
+    "title": "Doctor Sync Script Failed",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Found new Region ID",
+    "type": "Alert",
+    "description": "This alert means the region ID of the reported environment in Doctor is missing",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_found_new_region_id.html",
+    "title": "Doctor Found new Region ID",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "EU Emergency Requesting Access Process",
+    "type": "Informational",
+    "description": "EU Emergency Requesting Access Process.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_EU_Emergency_Request_Access_Process.html",
+    "title": "EU Emergency Requesting Access Process",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Mute Alerts Guide",
+    "type": "Informational",
+    "description": "Mute alerts when upgrading services guide",
+    "related-service": "backend",
+    "link": "/docs/runbooks/doctor/Runbook_Mute_Alerts_Guide.html",
+    "title": "Mute Alerts Guide",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook configure selfhealing",
+    "type": "Informational",
+    "description": "Configure Self-Healing",
+    "related-service": "selfhealing",
+    "link": "/docs/runbooks/doctor/Runbook_configure_selfhealing.html",
+    "title": "Configure Self-Healing",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Softlayer Network DShared Service Vyatta Down",
+    "type": "Alert",
+    "description": "Softlayer Network DShared Service Vyatta Down",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Softlayer_Network_DShared_Service_Vyatta_Down.html",
+    "title": "Softlayer Network DShared Service Vyatta Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - PgSQL Standby Node is down",
+    "type": "Alert",
+    "description": "RETIRED - This Runbook is for PagerDuty alerts when the PgSQL Standby Node is down.",
+    "related-service": "N/A",
+    "link": "/docs/runbooks/doctor/Runbook_PgSQLCluster_Prod_Maintenance_PgSQL_Standby_Down.html",
+    "title": "RETIRED - PgSQL Standby Node is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Failed to Enable/Disable/Decommission Monitor",
+    "type": "Alert",
+    "description": "Failed to enable, disable or decommission monitor for account during handover process.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Failed-to-enable-disable-decommission-monitor-for-account-during-handover-process-account_id.html",
+    "title": "Doctor Failed to Enable/Disable/Decommission Monitor",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Doctor Web SSH ibm allenvs fabric doctor availability Doctor Web SSH",
+    "type": "Alert",
+    "description": "Doctor Web SSH Alert",
+    "related-service": "webssh",
+    "link": "/docs/runbooks/doctor/Runbook_DoctorWebSSH_ibm_allenvs_fabric_doctor_availabiility_DoctorWebSSH.html",
+    "title": "Doctor Web SSH is Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Backend",
+    "type": "Informational",
+    "description": "What's up with the doctor_backend Container?",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Doctor_backend_container.html",
+    "title": "DECOMMISSIONED Doctor Backend Service",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor agent deployment",
+    "type": "Alert",
+    "description": "Runbook Doctor agent deployment.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-Doctor-agent-deployment.html",
+    "title": "Doctor Agent Deployment",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - PgSQL Disk or RAM usage is high",
+    "type": "Alert",
+    "description": "RETIRED - This Runbook is for PagerDuty alerts when the PgSQL Disk or RAM usage is high.",
+    "related-service": "N/A",
+    "link": "/docs/runbooks/doctor/Runbook_PgSQLCluster_Prod_Maintenance_PgSQL_Disk_RAM_Usage_Alert.html",
+    "title": "RETIRED - PgSQL Disk or RAM usage is high.",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook st_admcnsl_doctorChk Ops admin console doctor check failed",
+    "type": "Alert",
+    "description": "Bluemix Alert SEV3",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_St_Admcnsl_doctorChk_Ops_admin_console_doctor_check_failed.html",
+    "title": "Bluemix Alert SEV3 Ops admin console doctor check failed",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook connecting to local environment",
+    "type": "Informational",
+    "description": "Connecting to a Local Environment's VMware vSphere Web Client",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Connecting_To_Local_Environment.html",
+    "title": "Connecting to a Local Environment's VMware vSphere Web Client",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Request Access to SSH Jumpbox",
+    "type": "Informational",
+    "description": "How to request access to SSH Jumpbox.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Request_Access_to_SSH_Jumpbox.html",
+    "title": "Request Access to SSH Jumpbox",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "API Health API service is removed from catalog",
+    "type": "Alert",
+    "description": "Describe if an API service is not responding, and/or the API service has just been removed from the API catalog",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_API_Health_API_Service_Is_Removed_From_Catalog.html",
+    "title": "RETIRED API Health API service is removed from catalog",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Recover the API Platform proxy",
+    "type": "Alert",
+    "description": "How to solve the API platform proxy issue.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_api_platform_proxy_failure.html",
+    "title": "Recover the API Platform proxy",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Disk Usage is High boot partition",
+    "type": "Alert",
+    "description": "How to solve an alert for high run disk usage.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Disk_Usage_is_High_boot_partition.html",
+    "title": "Disk Usage is High boot partition",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Registry Service URL Down",
+    "type": "Alert",
+    "description": "Runbook Registry Service URL Down",
+    "related-service": "doctor_registry",
+    "link": "/docs/runbooks/doctor/Runbook_Registry_Service_Down.html",
+    "title": "RETIRED Runbook Registry Service URL Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook How To Enable Diego Supports",
+    "type": "Informational",
+    "description": "How to Enable Diego Supports",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_How_To_Enable_Diego_Supports.html",
+    "title": "How to Enable Diego Supports",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Deploy Doctor Agent In Dedicated SL Account",
+    "type": "Informational",
+    "description": "Deploy Doctor Agent in Dedicated SL Account",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Deploy_Doctor_Agent_In_Dedicated_SL_Account.html",
+    "title": "Deploy Doctor Agent in Dedicated SL Account",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Segments Tribes API",
+    "type": "Informational",
+    "description": "Instructions for the Scorecard API.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Segment_Tribes_API.html",
+    "title": "Segments Tribes API",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "EU Emergency Process Refresh AccessHub Token Failure",
+    "type": "Alert",
+    "description": "EU Emergency Process Refresh AccessHub Token Failure.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_EU_Emergency_Process_Refresh_AccessHub_Token_Failure.html",
+    "title": "EU Emergency Process Refresh AccessHub Token Failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook cloud usage is delay",
+    "type": "Alert",
+    "description": "Cloud Usage is Delay alert",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_cloud_usage_is_delay.html",
+    "title": "Cloud Usage Is Delay",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Reset Doctor 2FA",
+    "type": "Alert",
+    "description": "Instructions for Doctor users to reset their Doctor 2FA.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_reset_doctor_2fa.html",
+    "title": "Reset Doctor 2FA",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Envadminui CSV File Not Found",
+    "type": "Alert",
+    "description": "BBO Job fails - file envadminui.csv not found",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Envadminui_CSV_File_Not_Found.html",
+    "title": "BBO Job fails - file envadminui.csv not found",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Self-healing Schedule Jobs",
+    "type": "Informational",
+    "description": "Creating Self-healing Schedule Jobs",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Selfhealing_Schedule_Jobs.html",
+    "title": "Self-healing Schedule Jobs",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Security Service Down",
+    "type": "Alert",
+    "description": "Runbook Security Service Down",
+    "related-service": "doctor_security",
+    "link": "/docs/runbooks/doctor/Runbook_Security_Service_Down.html",
+    "title": "RETIRED Runbook Security Service Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Failed To complete Ansible Task b99f73f88f22",
+    "type": "Alert",
+    "description": "Failed To complete Ansible Task b99f73f88f22.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-Failed-To-complete-anisble-Task-b99f73f88f22-for-incident-in-env-Env_name.html",
+    "title": "Failed To complete Ansible Task b99f73f88f22",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook configure blink",
+    "type": "Informational",
+    "description": "Configure Blink",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_configure_blink.html",
+    "title": "Configure Blink",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "WATSON Request Doctor Access",
+    "type": "Informational",
+    "description": "Instruction for requesting access to Doctor for Watson.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_WATSON_Request_Doctor_Access.html",
+    "title": "Watson Request Doctor Access",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Shared service failure",
+    "type": "Alert",
+    "description": "Runbook Shared service failure",
+    "related-service": "Datahub",
+    "link": "/docs/runbooks/doctor/Runbook_Shared_service_failure.html",
+    "title": "RETIRED Shared service failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Runbook Doctor PostgreSQL server is down",
+    "type": "Alert",
+    "description": "RETIRED - This Runbook is for PostgreSQL server is down.",
+    "related-service": "PostgreSQL",
+    "link": "/docs/runbooks/doctor/Runbook_Doctor_PostgreSQL_Server_Switch.html",
+    "title": "RETIRED - Runbook Doctor PostgreSQL server is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "All web ssh unreachable",
+    "type": "issue",
+    "description": "How to fix the issue of all web ssh unreachable",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/palente/Runbook_all_web_ssh_unreachable.html",
+    "title": "web ssh unreachable",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to run automation script with Doctor ansible-based automation engine",
+    "type": "Informational",
+    "description": "How to run automation script with Doctor ansible-based automation engine.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_How_To_Run_Automation_Script_With_Doctor_Ansible_Based_Automation_Engine.html",
+    "title": "How to run automation script with Doctor ansible-based automation engine",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Backend Service URL Down",
+    "type": "Alert",
+    "description": "Runbook Doctor Backend Service Down",
+    "related-service": "doctor_backend",
+    "link": "/docs/runbooks/doctor/Runbook_Backend_Service_Down_Watson_Health.html",
+    "title": "RETIRED Runbook Doctor Backend Service Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook EU Vault is down",
+    "type": "Alert",
+    "description": "EU vault is down.",
+    "related-service": "vault",
+    "link": "/docs/runbooks/doctor/Runbook_EU_Vault_down.html",
+    "title": "EU Vault is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Step by Step Set Up Vault Service",
+    "type": "Informational",
+    "description": "Setting up the vault and consul server",
+    "related-service": "backend",
+    "link": "/docs/runbooks/doctor/Runbook_Step_By_Step_Set_Up_Vault_Service.html",
+    "title": "Step by step to set up Vault service",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Request Doctor Access",
+    "type": "Informational",
+    "description": "RETIRED - Doctor access were managed by USAM, below the steps for requesting Doctor access.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Request_Doctor_Access.html",
+    "title": "RETIRED - Request Doctor Access",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - PgSQL Primary Node is down",
+    "type": "Alert",
+    "description": "RETIRED - This Runbook is for PagerDuty alerts when the PgSQL Primary Node is down.",
+    "related-service": "N/A",
+    "link": "/docs/runbooks/doctor/Runbook_PgSQLCluster_Prod_Maintenance_PgSQL_Primary_Down.html",
+    "title": "RETIRED - PgSQL Primary Node is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor SSH Jumpbox",
+    "type": "Informational",
+    "description": "What is SSH Jumpbox? A SSH Jumpbox was built here in order to allow SRE easily access every environment.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Doctor_SSH_Jumpbox.html",
+    "title": "Doctor SSH Jumpbox",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook cloud ops incident management",
+    "type": "Informational",
+    "description": "Cloud Ops Incident Management",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_cloud_ops_incident_mgmt.html",
+    "title": "Cloud Ops Incident Management",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook how to configure the blink in your browser",
+    "type": "Informational",
+    "description": "Configuring blink in your browser",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_How_To_Configure_The_Blink_In_Your_Browser.html",
+    "title": "How to Configure the Blink in Your Browser",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED -  HaProxy Disk or RAM usage is high",
+    "type": "Alert",
+    "description": "RETIRED -  This Runbook is for PagerDuty alerts when the HaProxy Disk or RAM usage is high.",
+    "related-service": "N/A",
+    "link": "/docs/runbooks/doctor/Runbook_PgSQLCluster_Prod_Maintenance_HaProxy_Disk_RAM_Usage_Alert.html",
+    "title": "RETIRED -  HaProxy Disk or RAM usage is high.",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Doctor service is down",
+    "type": "Alert",
+    "description": "This Runbook is for Doctor service is down.",
+    "related-service": "PostgreSQL",
+    "link": "/docs/runbooks/doctor/Runbook_Doctor_service_down.html",
+    "title": "Runbook Doctor service is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to enable BOSH_CLI to UAA",
+    "type": "Alert",
+    "description": "This alert is triggred when Cloud release loading failed.",
+    "related-service": "doctor_backend, doctor_cloud,bosh_cli",
+    "link": "/docs/runbooks/doctor/Runbook_How_to_enable_bosh_cli_to_uaa.html",
+    "title": "How to enable BOSH_CLI to User Account and Authentication (UAA)",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook for Signing service down",
+    "type": "Alert",
+    "description": "Runbook for Signing service down",
+    "related-service": "oss signing service",
+    "link": "/docs/runbooks/doctor/Runbook_how_to_recovery_signing_service.html",
+    "title": "How to recovery Signing Service",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Backend Service URL Down",
+    "type": "Alert",
+    "description": "Runbook Doctor Backend Service Down",
+    "related-service": "doctor_backend",
+    "link": "/docs/runbooks/doctor/Runbook_Backend_Service_Down.html",
+    "title": "RETIRED Runbook Doctor Backend Service Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "DECOMMISSIONED - Deploy certificates on doctor agent",
+    "type": "Informational",
+    "description": "A list of tips and techniques useful for Doctor on-call duties",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Deploy-certificates-on-doctor-agent.html",
+    "title": "Deploy certificates on doctor agent",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor tips and techniques",
+    "type": "Informational",
+    "description": "A list of tips and techniques useful for Doctor on-call duties",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Doctor_Oncall_Tips_and_Techniques.html",
+    "title": "Doctor tips and techniques",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to Deploy User CA Key",
+    "type": "Informational",
+    "description": "How to deploy a user CA Key",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_How_to_Deploy_User_CA_Key.html",
+    "title": "How to Deploy User CA Key",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Import Inventory",
+    "type": "Informational",
+    "description": "Doctor support import inventory(IaaS VMs) to doctor server.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Import_Inventory.html",
+    "title": "Import Inventory",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Incorrect/Missing Credentials for IBM Cloud Environment",
+    "type": "Alert",
+    "description": "How to resolve issues when viewing the credentials of an IBM Cloud environment and the credential field displays \"bad encypt\".",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_view_credential.html",
+    "title": "Incorrect/Missing Credentials for IBM Cloud Environment",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Request Doctor Access in AH",
+    "type": "Informational",
+    "description": "Doctor access were managed by AccessHub, below the steps for requesting Doctor access.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Request_Doctor_Access_by_AH.html",
+    "title": "DECOMMISSIONED Request Doctor Access in AH",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Vyatta Password Checkout Extend Checkin",
+    "type": "Informational",
+    "description": "Instructions for the Scorecard API.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Vyatta_Password_Checkout_Extend_Checkin.html",
+    "title": "Vyatta Password Checkout Extend Checkin",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "EU Emergency Process Revoke User Privilege Failure",
+    "type": "Alert",
+    "description": "EU Emergency Process Revoke User Privilege Failure.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_EU_Emergency_Process_Revoke_User_Privilege_Failure_AH.html",
+    "title": "EU Emergency Process Revoke User Privilege Failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "root password expire",
+    "type": "Alert",
+    "description": "How to solve an alert for root password expire on local env",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_st_passwd_expiration_root.html",
+    "title": "How to solve an alert for root password expire on local/dedicated environment",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Kubernetes Node Incidents",
+    "type": "Alert",
+    "description": "Kubernetes Node Incidents Alert",
+    "related-service": "kubernetes",
+    "link": "/docs/runbooks/doctor/Runbook_Kubernetes_Node_Incidents.html",
+    "title": "Kubernetes Node Incidents",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook oss iam is down",
+    "type": "Alert",
+    "description": "OSS IAM is down, user can not login doctor portal, wukong portal, grafana etc.",
+    "related-service": "doctor_iam, doctor_platformuser",
+    "link": "/docs/runbooks/doctor/Runbook_iam_down.html",
+    "title": "OSS IAM is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED -  PgSQL clusters Prod HaProxy Primary Node is Down",
+    "type": "Alert",
+    "description": "RETIRED -  This Runbook is for PagerDuty alerts when the PgSQL clusters Prod HaProxy Primary Node is Down.",
+    "related-service": "N/A",
+    "link": "/docs/runbooks/doctor/Runbook_PgSQLCluster_Prod_Maintenance_HaProxy_Primary_Down.html",
+    "title": "RETIRED -  ONCALL NEED ACTIONS TO CHANGE DNS MAPPING IMMEDIATELY -- PgSQL clusters Prod HaProxy Primary Node is Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Script service failure",
+    "type": "Alert",
+    "description": "Runbook Script service failure",
+    "related-service": "Script",
+    "link": "/docs/runbooks/doctor/Runbook_Script_service_failure.html",
+    "title": "RETIRED Runbook Runbook Script service failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Blink Service is Down for watson environment",
+    "type": "Alert",
+    "description": "This Runbook is for PagerDuty alerts when the blink is down for watson environment.",
+    "related-service": "blink_agent",
+    "link": "/docs/runbooks/doctor/Runbook_Doctor_Blink_Watson_Env.html",
+    "title": "Doctor Blink sretools.blink is Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook InfluxDB is down",
+    "type": "Alert",
+    "description": "Restart and Verify InfluxDB Service on Target VM.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-InfluxDB-is-down.html",
+    "title": "Restart InfluxDB Service on Target VM",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook SSH Web Console",
+    "type": "Information",
+    "description": "An overview and onboarding of the SSH Web Console",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_SSH_Web_Console.html",
+    "title": "SSH Web Console",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Failed To Complete Selfhealing Scheduler Task",
+    "type": "Alert",
+    "description": "Failed to Complete Selfhealing Scheduler Task Reset Root Password",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Failed_To_Complete_Selfhealing_Scheduler_Task.html",
+    "title": "Failed to Complete Selfhealing Scheduler Task Reset Root Password",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Doctor Security Service URL Down",
+    "type": "Alert",
+    "description": "Runbook Doctor Security Service Down",
+    "related-service": "doctor_security",
+    "link": "/docs/runbooks/doctor/Runbook_Security_Service_Down_Watson_Health.html",
+    "title": "RETIRED Runbook Doctor Security Service Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Break the Glass",
+    "type": "Alert",
+    "description": "The purpose of this runbook is so the on-duty operator will have another way to fetch the root password in case Doctor cannot work",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Break_the_Glass.html",
+    "title": "Break the Glass on-duty operator",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook API Health Monitor Is Down",
+    "type": "Alert",
+    "description": "Runbook API Health Monitor Is Down",
+    "related-service": "api",
+    "link": "/docs/runbooks/doctor/Runbook_API_Health_Monitor_Is_Down.html",
+    "title": "Runbook API Health Monitor Is Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Creating Runbooks",
+    "type": "Informational",
+    "description": "When creating a runbook, you should include all important information related to the error received.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-Guidelines.html",
+    "title": "bluemix-ops - Creating Runbooks",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "doctor-pnp-api.down",
+    "type": "Alert",
+    "description": "This alert will be triggered when doctor pnp api did not work properly",
+    "related-service": "doctor, pnp",
+    "link": "/docs/runbooks/doctor/doctor-pnp-api.down.html",
+    "title": "Doctor PNP API down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Armada Registry Service Down",
+    "type": "Alert",
+    "description": "Runbook Armada Registry Service Down",
+    "related-service": "armada_registry",
+    "link": "/docs/runbooks/doctor/Runbook_Armada_Registry_Service_Down.html",
+    "title": "RETIRED Runbook Armada Registry Service Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook How To Deploy Firecall Auto On Existing Environment",
+    "type": "Informational",
+    "description": "How to deploy firecall_auto on existing environment",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_How_To_Deploy_Firecall_Auto_On_Existing_Environment.html",
+    "title": "How to deploy firecall_auto on existing environment",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Failed to call USAM rest client to list pending access request of EU emergency access",
+    "type": "Alert",
+    "description": "Doctor failed to call USAM rest client to list pending access request of EU emergency access",
+    "related-service": "cicd",
+    "link": "/docs/runbooks/doctor/Runbook-Failed-to-call-USAM-rest-client-to-list-pending-access-request-of-eu-emerg-access.html",
+    "title": "Failed to call USAM rest client to list pending access request of eu emerg access",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Enable checkin/checkout for new users",
+    "type": "Informational",
+    "description": "Enable checkin/checkout for new users.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Shared_ID_Checkin_Checkout.html",
+    "title": "Enable checkin/checkout for new users",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Enable root password check in out function",
+    "type": "Alert",
+    "description": "Enable root check-in/out function in Doctor.",
+    "related-service": "admin",
+    "link": "/docs/runbooks/doctor/Enable_root_password_check_in_out_function.html",
+    "title": "Enable root password check in out function",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "SL Reboot Impact",
+    "type": "Alert",
+    "description": "Describes how to proceed when Web SSH does not work after reboot for SL Reboot Impact",
+    "related-service": "softlayer",
+    "link": "/docs/runbooks/doctor/Runbook_SL_Reboot_Impact.html",
+    "title": "Runbook SL Reboot Impact",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Found Updated Region ID",
+    "type": "Alert",
+    "description": "When you see this alert, it means there is a Region ID mismatch in Doctor",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_found_updated_region_id.html",
+    "title": "Doctor Found Updated Region ID",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Access Service URL Down",
+    "type": "Alert",
+    "description": "Runbook Access Service URL Down",
+    "related-service": "doctor_access",
+    "link": "/docs/runbooks/doctor/Runbook_Access_Service_URL_Down.html",
+    "title": "Runbook Access Service URL Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook cloud usage is down",
+    "type": "Alert",
+    "description": "Cloud Usage is Down alert",
+    "related-service": "backend",
+    "link": "/docs/runbooks/doctor/Runbook_cloud_usage_is_down.html",
+    "title": "Cloud Usage Is Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Copy Files Between VM and Local Machine",
+    "type": "Instructions",
+    "description": "Instructions to copy files between a VM in an environment and your local machine",
+    "related-service": "jumpbox",
+    "link": "/docs/runbooks/doctor/Runbook_Copy_File_Using_JumpBox.html",
+    "title": "Copy Files Between VM and Local Machine",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Doctor Postgres Server Down",
+    "type": "Alert",
+    "description": "RETIRED - When this issue occurs, it means that postgres server can not be connected.",
+    "related-service": "postgres db",
+    "link": "/docs/runbooks/doctor/Runbook-Doctor-Postgres-Server-Down.html",
+    "title": "RETIRED - Doctor Postgres Server Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Request CLI access",
+    "type": "Informational",
+    "description": "The access to this server is controlled through ldap authentication.Here is the process to apply the access.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Request_CLI_access.html",
+    "title": "Request CLI access",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Request SSO ID",
+    "type": "Informational",
+    "description": "SSO ID is for accessing all Bluemix and services VMs, here are the process.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Request_SSO_ID.html",
+    "title": "Request SSO ID",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Runbook VM register failure",
+    "type": "Alert",
+    "description": "Runbook VM register failure",
+    "related-service": "CipherKeeper",
+    "link": "/docs/runbooks/doctor/Runbook_VM_register_failure.html",
+    "title": "Runbook Runbook VM register failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook CF account password out of date",
+    "type": "Alert",
+    "description": "CF Account/Password is Out of Date or Invalid",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_CF_account_password_out_of_date.html",
+    "title": "CF Account/Password is Out of Date or Invalid",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor HealthCenter - Agent Health Check Failure",
+    "type": "Alert",
+    "description": "This incident indicates the doctor agent can't process requests correctly any more.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-Doctor-HealthCenterAgent-Health-Check-Failure.html",
+    "title": "Doctor HealthCenter - Agent Health Check Failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "LDAP proxy down",
+    "type": "Alert",
+    "description": "LDAP proxy down",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/LDAP_proxy_down.html",
+    "title": "LDAP proxy down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook mail server failure",
+    "type": "Alert",
+    "description": "Mail server connection refused",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Mail_Server_Failure.html",
+    "title": "Mail Server Failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Doctor PostgreSQL Server is Down",
+    "type": "Alert",
+    "description": "RETIRED - This Runbook is for PagerDuty alerts when PostgreSQL server is down.",
+    "related-service": "PostgreSQL",
+    "link": "/docs/runbooks/doctor/Runbook_Doctor_PostgreSQL_Server_Down.html",
+    "title": "RETIRED - Doctor PostgreSQL server is Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Bosh Cli SSH Metrics_ibm_allenvs_infra_sshTunnel",
+    "type": "Alert",
+    "description": "The BOSH SSH Client may get disconnected by a firewall. Self-healing can restore automatically, but sometimes it needs to be recovered manually.",
+    "related-service": "bosh_cli_ssh",
+    "link": "/docs/runbooks/doctor/Runbook_Bosh_Cli_SSH_Metrics_ibm_allenvs_infra_sshTunnel.html",
+    "title": "BoshCli SSH Metrics ibm.allenvs.infra.sshTunnel",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook TF Service Incidents",
+    "type": "Alert",
+    "description": "TF Service Incidents Alert",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_TF_Service_Incidents.html",
+    "title": "Runbook TF Service Incidents",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "doctorbm@cn.ibm.com password change",
+    "type": "Alert",
+    "description": "This Runbook is guidance of how to update Doctor when password of doctorbm@cn.ibm.com is changed.",
+    "related-service": "Doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Doctor_Update_of_Changing_doctorbm_Password.html",
+    "title": "Update Doctor when passworkd of doctorbm@cn.ibm.com is changed.",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook - Clean decommissioned environment",
+    "type": "Informational",
+    "description": "Once an environment is decommissioned we need do some clean work for Doctor agent",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Clean_Decommissioned_Environment.html",
+    "title": "DECOMMISSIONED - Clean decommissioned environment from Doctor",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "EU Emergency Process USAM API Invoke Failure",
+    "type": "Alert",
+    "description": "EU Emergency Process USAM API Invoke Failure",
+    "related-service": "euaccess",
+    "link": "/docs/runbooks/doctor/Runbook_EU_Emergency_Process_USAM_API_Invoke_Failure.html",
+    "title": "EU Emergency Process USAM API Invoke Failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "User unable to log in to Doctor",
+    "type": "Alert",
+    "description": "If Doctor login fails, ssh to the doctor.bluemix.net VM.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Login_ibm-allenvs-fabric-doctor_availability-DoctorLogin.html",
+    "title": "Doctor login - ibm allenvs fabric doctor availability",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Monitor service failed",
+    "type": "Alert",
+    "description": "A list of tips and techniques useful for Doctor on-call duties",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Monitor_service_failed.html",
+    "title": "Monitor service failed",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "doctor-rtc-pnp-api.down",
+    "type": "Alert",
+    "description": "This alert will be triggered when doctor rtc api did not work properly",
+    "related-service": "doctor, rtc",
+    "link": "/docs/runbooks/doctor/doctor-rtc-pnp-api.down.html",
+    "title": "Doctor RTC API down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor BBO Agent Down",
+    "type": "Alert",
+    "description": "This alert indicates a heartbeat loss for the BBO agent.",
+    "related-service": "bbo",
+    "link": "/docs/runbooks/doctor/Runbook_BBO_Agent_Down.html",
+    "title": "DECOMMISSIONED - Doctor BBO Agent Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to work with GRE for BoshCli upgrade on local environment",
+    "type": "Alert",
+    "description": "This runbook will guide Doctor operator how to reload Doctor agent.",
+    "related-service": "admin",
+    "link": "/docs/runbooks/doctor/Runbook_how_to_work_with_GRE_for_BoshCli_upgrade_on_Local_environment.html",
+    "title": "How to work with GRE for BoshCli upgrade on local environment",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Firecall ID password check-in failure",
+    "type": "Alert",
+    "description": "When this issue occurs, it means that some VM's firecall passwords were not checked in properly.",
+    "related-service": "admin",
+    "link": "/docs/runbooks/doctor/Runbook_CHECKIN_FAILURE.html",
+    "title": "Doctor Firecall ID password check-in failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Consul agent is down",
+    "type": "Alert",
+    "description": "This alert will be triggered if consul agent started on Doctor agent was down.",
+    "related-service": "consul",
+    "link": "/docs/runbooks/doctor/Runbook_ibm_env4_lon_fabric_diego_consul_check_st_consulAgent_check_consul_agent_is_down.html",
+    "title": "Consul agent is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook DEA Cell Resource Usage Data",
+    "type": "Informational",
+    "description": "CELL Resource Usage Data",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_DEA_Cell_Resource_Usage_Data.html",
+    "title": "CELL Resource Usage Data",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Selfhealing Scheduler Service Down",
+    "type": "Alert",
+    "description": "Runbook Selfhealing Scheduler Service Down",
+    "related-service": "selfhealing-scheduler",
+    "link": "/docs/runbooks/doctor/Runbook_Selfhealing_Scheduler_Service_Down.html",
+    "title": "Runbook Selfhealing Scheduler Service Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Add Vcenter in Doctor Blink",
+    "type": "Alert",
+    "description": "Add Vcenter in Doctor Blink",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-add-the-vcenter-in-doctor-blink.html",
+    "title": "Add Vcenter in Doctor Blink",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook - Switch to agent/boshcli to secondary inception in local env",
+    "type": "Informational",
+    "description": "Once primary agent/boshcli in local env can not be accessed, switch to secondary inception",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Switch_Agent_Boshcli_to_Secondary_Inception_in_Local_Env.html",
+    "title": "Switch agent boshcli to secondary inception in local env",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Ops admin console doctor check failed",
+    "type": "Informational",
+    "description": "Alert Received For Ops Admin Console Doctor Check Failure.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-Ops-admin-console-doctor-check-failed.html",
+    "title": "Ops Admin Console Doctor Check Failed",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Doctor Security Service URL Down",
+    "type": "Alert",
+    "description": "Runbook Doctor Security Service Down",
+    "related-service": "doctor_security",
+    "link": "/docs/runbooks/doctor/Runbook_Security_Service_Down_Watson.html",
+    "title": "RETIRED Runbook Doctor Security Service Down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Self-healing failure as Ansible script execution failed on Doctor agent",
+    "type": "Alert",
+    "description": "Self-healing failure when Ansible script execution failed on Doctor agent",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-Selfhealing-failure-as-ansible-script-execution-failed-on-Doctor-agent.html",
+    "title": "Self-healing failure as Ansible script execution failed on Doctor agent",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Doctor portal server is down",
+    "type": "Alert",
+    "description": "Runbook Doctor portal server is down",
+    "related-service": "doctor portal",
+    "link": "/docs/runbooks/doctor/Runbook_Doctor_portal_server_switch.html",
+    "title": "Runbook Doctor portal server is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Recover the LDAP proxy",
+    "type": "Alert",
+    "description": "How to solve the LDAP proxy issue.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_ldap_proxy_down.html",
+    "title": "Recover the LDAP proxy",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook_Cloud_Release_Reload_Failed",
+    "type": "Alert",
+    "description": "This alert is triggred when Cloud release loading failed.",
+    "related-service": "doctor_backend, doctor_cloud",
+    "link": "/docs/runbooks/doctor/Runbook_Cloud_Release_Reload_Failed.html",
+    "title": "RETIRED Runbook Cloud Release Reload Failed",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Query Blink Access Logs",
+    "type": "Informational",
+    "description": "Blink Access Logs.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_Query_Blink_Access_Logs.html",
+    "title": "Query Blink Access Logs",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "EU Emergency Process Stop Polling Pending USAM Request",
+    "type": "Alert",
+    "description": "EU Emergency Process Stop Polling Pending USAM Request",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_EU_Emergency_Process_Stop_Polling_Pending_USAM_Request.html",
+    "title": "EU Emergency Process Stop Polling Pending USAM Request",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor BBO Agent Down Common Output Log Errors",
+    "type": "Information",
+    "description": "This informational runbook show the most common errors form the output.log.",
+    "related-service": "bbo",
+    "link": "/docs/runbooks/doctor/Runbook_BBO_Agent_Down_Common_Output_Log_Errors.html",
+    "title": "Doctor BBO Agent Down Common Output Log Errors",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Echometer URL Down Failure",
+    "type": "Alert",
+    "description": "Echometer URL Down Failure.",
+    "related-service": "echometer",
+    "link": "/docs/runbooks/doctor/Runbook-Echometer-URL-Down-Failure.html",
+    "title": "Echometer URL Down Failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Doctor Postgres Server Disk High",
+    "type": "Alert",
+    "description": "RETIRED - When this issue occurs, it means that postgres db may have connection issues due to the high disk.",
+    "related-service": "postgres db",
+    "link": "/docs/runbooks/doctor/Runbook-Doctor-Postgres-Server-Disk-High.html",
+    "title": "RETIRED - Doctor Postgres Server Disk High",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "OSS Platform runbooks template",
+    "type": "Informational",
+    "description": "Describe and purpose and cause of the alert.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook-template.html",
+    "title": "OSS Platform Runbooks Template",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "API Health - Healthz Failed",
+    "type": "Alert",
+    "description": "This alert will be triggered if calling healthz API of an API service failed in API Health monitoring.",
+    "related-service": "healthz",
+    "link": "/docs/runbooks/doctor/Runbook_API_Health_Healthz_Failed.html",
+    "title": "API Health - Healthz Failed",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "bbo.test.for.doctor.sh not found",
+    "type": "Alert",
+    "description": "Discribes the actions When a large number of BBO alerts are triggered.",
+    "related-service": "bbo",
+    "link": "/docs/runbooks/doctor/Runbook_bbo_test_for_doctor_sh_not_found.html",
+    "title": "bbo.test.for.doctor.sh not found",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Self-healing",
+    "type": "Alert",
+    "description": "An overview of Self-healing functions",
+    "related-service": "backend",
+    "link": "/docs/runbooks/doctor/Runbook_selfhealing.html",
+    "title": "What is Self-healing",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "EU Emergency Process Revoke User Privilege Failure",
+    "type": "Alert",
+    "description": "EU Emergency Process Revoke User Privilege Failure.",
+    "related-service": "cicd",
+    "link": "/docs/runbooks/doctor/Runbook_EU_Emergency_Process_Revoke_User_Privilege_Failure.html",
+    "title": "EU Emergency Process Revoke User Privilege Failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook how to get doctor api key",
+    "type": "Informational",
+    "description": "Describe how to get your API Key",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_how_to_get_doctor_api_key.html",
+    "title": "How to get your API key",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook cloud instance is delay",
+    "type": "Alert",
+    "description": "Cloud Instance is Delay alert",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_cloud_instance_is_delay.html",
+    "title": "Cloud Instance Is Delay",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Request UCD access",
+    "type": "Informational",
+    "description": "How to requet UCD access.",
+    "related-service": "UCD",
+    "link": "/docs/runbooks/doctor/Request_UCD_access.html",
+    "title": "Request UCD access",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to get your Blink Token",
+    "type": "Alert",
+    "description": "Describes blink token set up and use.",
+    "related-service": "admin",
+    "link": "/docs/runbooks/doctor/How_to_get_your_blink_token.html",
+    "title": "How to get your Blink Token",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor BBO script could not be executed correctly",
+    "type": "Alert",
+    "description": "This alert indicates a BOSHCLI Script can not be executed.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/Runbook_BBO_Exec_Fail.html",
+    "title": "Doctor BBO script could not be executed correctly",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Blink",
+    "type": "Informational",
+    "description": "Doctor Blink is a proxy, which can help access to any web service or web portal in Cloud Public/Dedicated/Local environments without any VPN.",
+    "related-service": "blink",
+    "link": "/docs/runbooks/doctor/ibm-only/Doctor_Blink.html",
+    "title": "What is Doctor Blink",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Operation ScoreCard",
+    "type": "Informational",
+    "description": "What is Operation Score Card.",
+    "related-service": "scorecard",
+    "link": "/docs/runbooks/doctor/ibm-only/Operation_Score_Card.html",
+    "title": "What is Operation Score Card and How it works",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor how to restart BBO agents",
+    "type": "Informational",
+    "description": "Describe useful BBO command use for doctor administrator.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/docs/runbooks/doctor/ibm-only/Doctor_how_to_restart_BBO_agents.html",
+    "title": "Doctor how to restart BBO agents",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook change or update password with scripts",
+    "type": "Informational",
+    "description": "Change or update password with scripts",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_change_or_update_password_with_scripts.html",
+    "title": "Change or update password with scripts",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Runbook_Deploy_HA_LB_KONG_With_Docker_Swarm",
+    "type": "Informational",
+    "description": "RETIRED - Deploy HA LB KONG with Darker Swarm",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_Deploy_HA_LB_KONG_With_Docker_Swarm.html",
+    "title": "RETIRED - Deploy HA LB KONG with Darker Swarm",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Bluemix OSS Onshift",
+    "type": "Informational",
+    "description": "On-call Procedures for Bluemix OSS PagerDuty.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_Bluemix_Doctor_Onshift.html",
+    "title": "Bluemix OSS Onshift",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to use firecall by environment",
+    "type": "Informational",
+    "description": "This document shows how to use a firecall on each env.",
+    "related-service": "doctorstatus",
+    "link": "/docs/runbooks/doctor/ibm-only/How_To_Use_Firecall_For_Each_Env.html",
+    "title": "How to use firecall by environment.",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Deploy Blink Agent",
+    "type": "Informational",
+    "description": "Deploy Blink Agent",
+    "related-service": "blink",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_Deploy_Blink_Agent.html",
+    "title": "Deploy Blink Agent",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Deploy Doctor Agent",
+    "type": "Informational",
+    "description": "Deploy Doctor Agent",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_Deploy_Doctor_Agent.html",
+    "title": "Deploy Doctor Agent",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook configure event manager",
+    "type": "Informational",
+    "description": "Configure Event Manager",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_configure_event_manager.html",
+    "title": "Configure Event Manager",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Request operator_bbo Role in USAM",
+    "type": "Informational",
+    "description": "Procedure to request operator_bbo role in USAM.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Request_the_operator_bbo_role.html",
+    "title": "Request operator_bbo Role",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor ops: access an environment to execute runbook commands",
+    "type": "Informational",
+    "description": "Many Runbooks require us to run some commands in a customer's environment.There are various ways to access the environment, various ways to log into the environment.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Doctor_ops_access_an_environment_to_execute_runbook_commands.html",
+    "title": "Doctor ops access an environment to execute runbook commands",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Guide Of Applying IBM Internal SSL Certificate",
+    "type": "Informational",
+    "description": "Guide to Applying IBM Internal SSL Certificate",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_Guide_Of_Applying_IBM_Internal_SSL_Certificate.html",
+    "title": "Guide to Applying IBM Internal SSL Certificate",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook For L_RBCSCC Manual Command For Starting Doctor Agent Service",
+    "type": "Informational",
+    "description": "(For L_RBCSCC) Manual Command For Starting Doctor Agent Service",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_For_L_RBCSCC_Manual_Command_For_Starting_Doctor_Agent_Service.html",
+    "title": "(For L_RBCSCC) Manual Command For Starting Doctor Agent Service",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook-for-new-tenant",
+    "type": "Informational",
+    "description": "Checklist for setting up a new tenant for Doctor.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook-for-new-tenant.html",
+    "title": "Runbook-for-new-tenant",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Handover Process",
+    "type": "Informational",
+    "description": "Runbook Handover Process",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_Handover_Process.html",
+    "title": "Runbook Handover Process",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook ccdb unreachable",
+    "type": "Informational",
+    "description": "How to use the Bluemix Component the UI",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_ccdb_unreachable.html",
+    "title": "ccdb_unreachable",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook-Softlayer-Network-DShared-Service-vyatta-down",
+    "type": "Informational",
+    "description": "Vyatta HA fail over incident.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook-Softlayer-Network-DShared-Service-vyatta-down.html",
+    "title": "Runbook Softlayer Network DShared Service vyatta down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Enable SSO",
+    "type": "Informational",
+    "description": "How to enable SSO on a Target VM.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook-enable-SSO.html",
+    "title": "Enable SSO on a Target VM",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor how to restart BBO Mbus agents",
+    "type": "Runbook",
+    "description": "Describe useful commands use for doctor BBO administrator.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/docs/runbooks/doctor/ibm-only/Doctor_how_to_restart_BBO_Mbus_agents.html",
+    "title": "DECOMMISSIONED - Doctor how to restart BBO Mbus agents (Faye)",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook Bluemix UI Component Instruction",
+    "type": "Informational",
+    "description": "How to use the Bluemix Component the UI",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/doctor/ibm-only/Runbook_Bluemix_UI_Component_Instruction.html",
+    "title": "Bluemix Component UI Instruction",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Doctor Incident Manager",
+    "type": "Informational",
+    "description": "Event Manager is a centralized place in Doctor to manage various events that are critical for service Ops.",
+    "related-service": "admin",
+    "link": "/docs/runbooks/doctor/ibm-only/Incident_Manager.html",
+    "title": "Doctor Incident Manager",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RETIRED - Doctor Auth Introduction",
+    "type": "Informational",
+    "description": "RETIRED - Doctor Users and Permissions.",
+    "related-service": "doctor",
+    "link": "/docs/runbooks/docs/runbooks/doctor/ibm-only/Doctor_Auth_Introduction.html",
+    "title": "RETIRED - Doctor Users and Permissions",
+    "layout": "default"
+  }
+]

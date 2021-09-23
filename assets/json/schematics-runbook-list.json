@@ -1,0 +1,20 @@
+[
+  {
+    "runbook-name": "002 Apply Kube Network Policy",
+    "type": "Informational",
+    "description": "Apply Kube Network Policy",
+    "related-service": "schematics",
+    "link": "/docs/runbooks/schematics/Runbook_apply_kube_network_policy.html",
+    "title": "Apply Kube Network Policy",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "001 Upgrade Kube cluster",
+    "type": "Informational",
+    "description": "Upgrade Kube cluster",
+    "related-service": "schematics",
+    "link": "/docs/runbooks/schematics/Runbook_upgrade_kube.html",
+    "title": "Upgrade Kube cluster",
+    "layout": "default"
+  }
+]

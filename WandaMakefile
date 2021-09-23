@@ -1,0 +1,3 @@
+SITE_OPTS := --config _config.yml,config/non-ibm.yml,config/wanda.yml
+# requires GNU make
+include OSSMakefile

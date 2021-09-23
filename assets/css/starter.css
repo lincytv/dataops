@@ -1,0 +1,72 @@
+body {
+    padding-top: 0px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.bigicon {
+    padding: 20px;
+}
+
+.jumbotron {
+    margin-top:30px;
+    padding-top: 30px;
+    border-radius: 12px;
+}
+
+.jumbotronh2 {
+    margin-top:0px;
+}
+
+.envpanel {
+    margin-right:10px;
+    
+}
+
+.stateLink {
+
+}
+.stateLink:hover {
+    text-decoration: none;
+    background-color: #B2CCCC;
+}
+
+.mainicon {
+    font-size:72px;
+
+}
+.heading {
+    margin-bottom: 10px;
+}
+
+.infoPanel {
+    margin-top:20px;
+}
+
+.glyphicon-spin {
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+

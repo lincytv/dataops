@@ -1,0 +1,1 @@
+exclude: [config, script, Gemfile, docs/runbooks/marmot/images/st_env_connectivity.jpg, docs/runbooks/marmot/Runbook-Marmot-ace-agent.md]

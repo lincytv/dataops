@@ -1,0 +1,11 @@
+[
+  {
+    "runbook-name": "Runbook Selfhealing Agent Disconnect",
+    "type": "Alert",
+    "description": "Runbook Selfhealing Agent Disconnect",
+    "related-service": "pte-selfhealing",
+    "link": "/docs/runbooks/selfhealing/Runbook_Selfhealing_Agent_Disconnect.html",
+    "title": "Runbook Selfhealing Agent Disconnect",
+    "layout": "default"
+  }
+]

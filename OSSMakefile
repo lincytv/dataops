@@ -1,0 +1,71 @@
+SHELL := /bin/bash
+SITE_DIR := _site
+json_files := $(wildcard ./assets/json/*.json)
+checkkeysprog :="./script/OSScheckkeys.py"
+templatekeys :="./script/data/runbooks_template_keys.json"
+
+
+# ATR 27-March-2018 added the sed pipe to escape spaces in file names and directories
+# to resolve the bug for directory name 'runbooks/docs/runbooks/sosat/Disaster Recovery'
+# The variable changed is passed to check_keys: $(changed) as parameter,
+# and 'make' was trying to locate a file name 'runbooks/docs/runbooks/sosat/Disaster',
+# but, this file does not exist, by adding the scape the directory is now passed as:
+#	  docs/runbooks/sosat/Disaster\ Recovery/grafana-disaster-recovery.md
+# instead of two file names:
+#	  docs/runbooks/sosat/Disaster
+#	  Recovery/grafana-disaster-recovery.md
+#
+# Replaced:  changed := $(shell git diff --name-only | awk '/.md/')
+#
+# By: changed := $(shell git diff --name-only | awk '/.md/' | sed 's: :\\ :g')
+
+changed := $(shell git diff --name-only | awk '/.md/' | sed 's: :\\ :g')
+
+define do_yamllint
+	grep -B50 "\-\-\-" $(file) | grep -vE "\b\-\-\b" > tmp.yml;
+	yamllint tmp.yml> /dev/null &2>1;
+endef
+
+define do_jsonlint
+	jsonlint $(file);
+endef
+
+define do_htmllint
+	htmlproofer --disable-external --empty-alt-ignore --allow-hash-href --file-ignore "/.+\/test.+/,/.+\/dashboard.+/,/.+\/assets.+/,/\/docs(?!.*$(shell echo $(subst docs,,$(subst .md,.html,$(file))) | sed 's/\//\\\//g'))(.*)/" $(SITE_DIR);
+endef
+
+
+all: clean check_keys jekyll html_lint check_json_generator json_lint
+# all: json_lint
+
+.PHONY: all
+
+define pretty_output
+	@echo -e "\n\n\033[32m$(1)\033[0m"
+endef
+
+clean:
+	$(call pretty_output, "Run Clean to remove this directory: $(SITE_DIR)")
+	rm -rf $(SITE_DIR)
+
+check_keys: $(changed)
+ifdef changed
+	$(call pretty_output, "Run Check Keys Test")
+	python $(checkkeysprog) -l $(changed) -t $(templatekeys) || exit;
+endif
+
+jekyll:
+	$(call pretty_output, "Run jekyll")
+	bundle exec jekyll build --source . --destination $(SITE_DIR)
+
+html_lint: jekyll
+	$(call pretty_output, "Run HTML Linter")
+	$(foreach file,$(changed),$(do_htmllint))
+
+check_json_generator:
+	$(call pretty_output, "Generate/update JSON Metadata files")
+	python ./script/OSSRunbookJsonGenerator.py --runbooks
+
+json_lint: $(json_files)
+	$(call pretty_output, "Run Json Linter")
+	$(foreach file,$(json_files),$(do_jsonlint))

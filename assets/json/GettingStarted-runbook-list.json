@@ -1,0 +1,11 @@
+[
+  {
+    "runbook-name": "001 Get Access for On-Call",
+    "type": "Informational",
+    "description": "Get Access for On-Call",
+    "related-service": "GettingStarted",
+    "link": "/docs/runbooks/GettingStarted/Runbook_get_access.html",
+    "title": "Get Access for On-Call",
+    "layout": "default"
+  }
+]

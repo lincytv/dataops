@@ -1,0 +1,42 @@
+check process bbo_dedicated_msg_server_9292 with pidfile /opt/bbo/dedicated_msg_server_9292.id
+   start program = "/opt/bbo/bluemix_best_operator_msg_server/bin/ctl start 9292"
+   stop program = "/opt/bbo/bluemix_best_operator_msg_server/bin/ctl stop 9292"
+   if does not exist for 3 cycles then
+     exec "/etc/monit/create_to_webhooks.sh -e dedicated_msg_server_9292 -m prd -a create -d"
+   else if succeeded for 3 cycles  then
+     exec "/etc/monit/close_to_webhooks.sh -e dedicated_msg_server_9292 -m prd -d"
+#   if failed host 127.0.0.1 port 9292 protocol http
+#      with timeout 10 seconds for 5 cycles
+#   then restartS
+check process bbo_dedicated_msg_server_9293 with pidfile /opt/bbo/dedicated_msg_server_9293.id
+   start program = "/opt/bbo/bluemix_best_operator_msg_server/bin/ctl start 9293"
+   stop program = "/opt/bbo/bluemix_best_operator_msg_server/bin/ctl stop 9293"
+   if does not exist for 3 cycles then
+     exec "/etc/monit/create_to_webhooks.sh -e dedicated_msg_server_9293 -m prd -a create -d"
+   else if succeeded for 3 cycles  then
+     exec "/etc/monit/close_to_webhooks.sh -e dedicated_msg_server_9293 -m prd -d"
+check process bbo_dedicated_msg_server_9294 with pidfile /opt/bbo/dedicated_msg_server_9294.id
+   start program = "/opt/bbo/bluemix_best_operator_msg_server/bin/ctl start 9294"
+   stop program = "/opt/bbo/bluemix_best_operator_msg_server/bin/ctl stop 9294"
+   if does not exist for 3 cycles then
+     exec "/etc/monit/create_to_webhooks.sh -e dedicated_msg_server_9294 -m prd -a create -d"
+   else if succeeded for 3 cycles  then
+     exec "/etc/monit/close_to_webhooks.sh -e dedicated_msg_server_9294 -m prd -d"
+# Will check the log files for an error like
+# /opt/bbo/bluemix_best_operator_msg_server/bin/ctl: line 14: exec: rackup: not found
+# if the error is detected most likely rack reached a Segmentation fault
+# at this point the service needs to be restarted create_to_webhooks.sh will create a
+# PagerDuty incident and restart the service, monit for some reason can't restart them.
+# This monitoring was addded since not always monit detect the service failed.
+check file console_ctl_9292.stderr with path /opt/bbo/bluemix_best_operator_msg_server/logs/console_ctl_9292.stderr
+   if match ".*exec: rackup: not found" for 3 cycles then
+     exec "/etc/monit/create_to_webhooks.sh -e dedicated_msg_server_9292 -m prd -a create -d"
+check file console_ctl_9293.stderr with path /opt/bbo/bluemix_best_operator_msg_server/logs/console_ctl_9293.stderr
+   if match ".*exec: rackup: not found" for 3 cycles then
+     exec "/etc/monit/create_to_webhooks.sh -e dedicated_msg_server_9293 -m prd -a create -d"
+check file console_ctl_9294.stderr with path /opt/bbo/bluemix_best_operator_msg_server/logs/console_ctl_9294.stderr
+   if match ".*exec: rackup: not found" for 3 cycles then
+     exec "/etc/monit/create_to_webhooks.sh -e dedicated_msg_server_9294 -m prd -a create -d"
+#For testing use only ATR 
+#check file test.log with path /etc/monit/test.log
+#  if match "error" then exec "/etc/monit/test3.sh 2>test.log"

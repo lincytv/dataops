@@ -1,0 +1,56 @@
+[
+  {
+    "runbook-name": "oss.infra.0004.no supervisord process are running in 30 mins on Jumpbox server",
+    "type": "Troubleshooting",
+    "description": "no supervisord process are running in 30 mins on Jumpbox server",
+    "related-service": "Blink",
+    "playbooks": "MISSING DATA",
+    "failure": "MISSING DATA",
+    "link": "/docs/runbooks/blink/oss_infra_0004.html"
+  },
+  {
+    "runbook-name": "oss.blink.0002.no haproxy running in Blink server",
+    "type": "Troubleshooting",
+    "description": "no haproxy in Blink server",
+    "related-service": "Blink",
+    "playbooks": "MISSING DATA",
+    "failure": "MISSING DATA",
+    "link": "/docs/runbooks/blink/oss_blink_0002.html"
+  },
+  {
+    "runbook-name": "oss.infra.0001.inode usage is over 90% on Jumpbox server",
+    "type": "Troubleshooting",
+    "description": "Jumpbox Inodes usage is over 90%",
+    "related-service": "Blink",
+    "playbooks": "MISSING DATA",
+    "failure": "MISSING DATA",
+    "link": "/docs/runbooks/blink/oss_infra_0001.html"
+  },
+  {
+    "runbook-name": "oss.infra.0002.disk usage is over 90% on Jumpbox server",
+    "type": "Troubleshooting",
+    "description": "disk usage is over 90% on Jumpbox server",
+    "related-service": "Blink",
+    "playbooks": "MISSING DATA",
+    "failure": "MISSING DATA",
+    "link": "/docs/runbooks/blink/oss_infra_0002.html"
+  },
+  {
+    "runbook-name": "oss.infra.0003.Newrelic agent is not reporting data on Jumpbox server",
+    "type": "Troubleshooting",
+    "description": "Newrelic agent is not reporting data on Jumpbox server",
+    "related-service": "Blink",
+    "playbooks": "MISSING DATA",
+    "failure": "MISSING DATA",
+    "link": "/docs/runbooks/blink/oss_infra_0003.html"
+  },
+  {
+    "runbook-name": "oss.blink.0001.prod1-tunnel-down",
+    "type": "Troubleshooting",
+    "description": "blink agent tunnel down",
+    "related-service": "Blink",
+    "playbooks": "MISSING DATA",
+    "failure": "MISSING DATA",
+    "link": "/docs/runbooks/blink/oss_blink_0001.html"
+  }
+]

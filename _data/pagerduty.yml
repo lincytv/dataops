@@ -1,0 +1,23 @@
+---
+
+pagerduty_alerts:
+  PSI863B:
+    id: PSI863B
+    link: https://bluemix.pagerduty.com/alerts/PSI863B
+    detail: |
+        Labels:
+        - alertname = ArmadaDeployWorkerUndeployResponseTimeTooLong
+        - alert_situation = worker_undeploy_long_response_time
+        - operation = undeploy
+        - service = armada-deploy
+        - severity = critical
+        Annotations:
+        - description = The average worker undeploy response time was found to be 61.52459463778572 seconds, which is >= the alert threshhold of 1 min.
+        - runbook = https://alchemy-prod.hursley.ibm.com/docs/runbooks/armada/armada-deploy-view-logs.html
+        - summary = Long worker undeploy response time detected for armada-deploy microservice.
+        Source: http://localhost/prod-dal10/carrier1/prometheus/graph?g0.expr=armada_deploy%3Aone_hour_avg_worker_undeploy_response_time+%3E%3D+60&g0.tab=0
+
+pagerduty_escalation_policies:
+  armada-deploy:
+    name: armada-deploy
+    link: https://bluemix.pagerduty.com/escalation_policies#PT2ZIIQ

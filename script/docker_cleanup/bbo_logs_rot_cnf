@@ -1,0 +1,17 @@
+/opt/bbo/bluemix_best_operator/logs/*.* {
+  daily
+  rotate 7
+  compress
+  missingok
+  notifempty
+  delaycompress
+ }
+
+/opt/bbo/bluemix_best_operator_agent/logs/*.* {
+  daily
+  rotate 7
+  compress
+  missingok
+  notifempty
+  delaycompress
+ }

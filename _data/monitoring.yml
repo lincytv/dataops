@@ -1,0 +1,13 @@
+---
+
+kibana:
+  us-south:
+    name: kibana
+    link: https://logging.ibm6.ng.bluemix.net/app/#/kibana4
+    query1:  https://logging.ibm6.ng.bluemix.net/kibana4/goto/7c2590c549c979504e8c3e56361f829b
+  eu-central:
+    name: kibana-eu-central
+    link: https://logging.eu-de.bluemix.net/kibana4/goto/cdac1baf2b4f55f4433fbf95f8f3eafc
+  kibana4:
+    name: Kibana
+    link: https://logging.ibm6.ng.bluemix.net/app/#/kibana4

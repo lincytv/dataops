@@ -1,0 +1,7 @@
+# Cleanup logs inside bbo_agent  container
+@daily /opt/clean-bbo-logs.sh -c bbo_agent -p /opt/bbo/bluemix_best_operator/logs -s 10M
+@daily /opt/clean-bbo-logs.sh -c bbo_agent -p /opt/bbo/bluemix_best_operator_agent/logs -s 10M
+# Remove unused docker image
+@weekly /usr/bin/docker rmi $(/usr/bin/docker images -q)
+# Cleanup ansible logs older than two weeks
+@daily /opt/clean-ansible-logs.sh

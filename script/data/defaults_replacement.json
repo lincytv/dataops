@@ -1,0 +1,31 @@
+{
+  "failure": [
+    "<add failures that this Runbook addresses. Separate each failure with a comma and surround with inverted commas>",
+    "Runbook needs to be Updated with failure info (if applicable)"
+  ],
+  "link": "<link to Runbook - replace .md with .html; runbook name must be part of the link> %s",
+  "description": [
+    "<replace with description>",
+    "Need to update Description",
+    "Runbook needs to be updated with description"
+  ],
+  "service": [
+    "<replace with service, e.g. Containers>",
+    "Runbook needs to be updated with service"
+  ],
+  "related-service": [
+    "<replace with service, e.g. Containers>",
+    "Runbook needs to be updated with service"
+  ],
+  "tags": "None",
+  "runbook-name": "<replace with runbook-name. Surround with inverted commas>",
+  "layout": "Unknown",
+  "title": "<replace with runbook title>",
+  "type": "<replace with a valid type. Information/PagerDuty/Alert/...>",
+  "playbooks": [
+    "[Runbook needs to be Updated with playbooks info (if applicable)]",
+    "[Runbook needs to be updated with playbooks]",
+    "[<add Ansible-playbook command to automate Runbook. Separate each Playbook with a comma and surround with inverted commas>]",
+    "<NoPlayBooksSpecified>"
+  ]
+}

@@ -1,0 +1,8 @@
+---
+
+
+regions:
+  us-south:
+    name: us-south
+  eu-central:
+    name: eu-central

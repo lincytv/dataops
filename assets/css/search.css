@@ -1,0 +1,12 @@
+#search-input {
+    width: 100%
+}
+
+.search-separator {
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+#results-container.nav > li > a  {
+    padding: 5px 15px
+}
