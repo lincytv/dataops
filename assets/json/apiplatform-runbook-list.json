@@ -27,6 +27,24 @@
     "layout": "default"
   },
   {
+    "runbook-name": "Runbook-Apiplatform-EchometerAlert-DoctorAPIService-instance-is-down",
+    "type": "Alert",
+    "description": "This alert will be triggered if the api_doctor_api service does not work properly.",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Runbook-Apiplatform-EchometerAlert-DoctorAPIService-instance-is-down.html",
+    "title": "RETIRED API Platform - Echometer alert: Doctor API service instance is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook_Scorecard_UI.md",
+    "type": "Alert",
+    "description": "General RMC Operations UI Support",
+    "related-service": "operations-ui",
+    "link": "/docs/runbooks/apiplatform/Runbook_RMC_Operations_UI.html",
+    "title": "RMC Operations UI Support",
+    "layout": "default"
+  },
+  {
     "runbook-name": "api.postgres-monitor.down",
     "type": "Alert",
     "description": "This alert is triggered when NewRelic is not receiving metrics from the api-postgres-monitor program",
@@ -36,12 +54,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "Runbook_Scorecard_UI.md",
+    "runbook-name": "Runbook-Apiplatform-EchometerAlert-CatalogService-instance-is-down",
     "type": "Alert",
-    "description": "General Scorecard UI support",
-    "related-service": "scorecard",
-    "link": "/docs/runbooks/apiplatform/Runbook_Scorecard_UI.html",
-    "title": "Scorecard UI Support",
+    "description": "This alert will be triggered if doctor_apicatalog does not work properly.",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Runbook-Apiplatform-EchometerAlert-CatalogService-instance-is-down.html",
+    "title": "RETIRED API Platform - Echometer alert: Catalog service instance is down",
     "layout": "default"
   },
   {
@@ -81,6 +99,15 @@
     "layout": "default"
   },
   {
+    "runbook-name": "Runbook_API_PLATFORM_Healthz_Failure",
+    "type": "Alert",
+    "description": "API PLATFORM Healthz Failures",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Runbook_API_PLATFORM_Healthz_Failure.html",
+    "title": "API PLATFORM Healthz Failures",
+    "layout": "default"
+  },
+  {
     "runbook-name": "api.pnp-notifications-adapter-postgres.down",
     "type": "Alert",
     "description": "Runbook to drill into errors related to Postgres via the Notifications Adapter",
@@ -117,39 +144,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "Runbook API Health API Service Is Removed From Catalog",
-    "type": "Alert",
-    "description": "Runbook API Health API Service Is Removed From Catalog",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Runbook_API_Health_API_Service_Is_Removed_From_Catalog.html",
-    "title": "Runbook API Health API Service Is Removed From Catalog",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Request access to the Privileged ID Management (PIM) in AH",
-    "type": "Informational",
-    "description": "Request access the Privileged ID Management (PIM)",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform//Request_PIM_Access_In_AH.html",
-    "title": "Request access to the Privileged ID Management (PIM) in AH",
-    "layout": "default"
-  },
-  {
     "runbook-name": "How to use the Privileged Identity Management (PIM) Secrets",
     "type": "Informational",
     "description": "How to use the Privileged Identity Management (PIM) Secrets",
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/how_use_pim_secrets.html",
     "title": "How to use the Privileged Identity Management (PIM) Secrets",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Runbook-Apiplatform-EchometerAlert-DoctorAPIService-instance-is-down",
-    "type": "Alert",
-    "description": "This alert will be triggered if the api_doctor_api service does not work properly.",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Runbook-Apiplatform-EchometerAlert-DoctorAPIService-instance-is-down.html",
-    "title": "RETIRED API Platform - Echometer alert: Doctor API service instance is down",
     "layout": "default"
   },
   {
@@ -213,6 +213,15 @@
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/api.scorecard-backend.down.html",
     "title": "API Platform - Scorecard Backend is down",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to rotate credentials for Scorecard Function ID",
+    "type": "Informational",
+    "description": "How to rotate credentials of Scorecard Function ID",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/scorecard-FID-credential-rotation.html",
+    "title": "How to rotate credentials for Scorecard Function ID",
     "layout": "default"
   },
   {
@@ -333,15 +342,6 @@
     "layout": "default"
   },
   {
-    "runbook-name": "Runbook_Scorecard_UI_Failure.md",
-    "type": "Alert",
-    "description": "Pinging Scorecard Frontend health check failed",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Runbook_Scorecard_UI_Failure.html",
-    "title": "API Platform - Scorecard UI Frontend is down",
-    "layout": "default"
-  },
-  {
     "runbook-name": "iam.bg.rotate-secrets",
     "type": "Informational",
     "description": "How to rotate secrets for OSS IAM breakglass",
@@ -396,15 +396,6 @@
     "layout": "default"
   },
   {
-    "runbook-name": "Runbook-Apiplatform-EchometerAlert-CatalogService-instance-is-down",
-    "type": "Alert",
-    "description": "This alert will be triggered if doctor_apicatalog does not work properly.",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Runbook-Apiplatform-EchometerAlert-CatalogService-instance-is-down.html",
-    "title": "RETIRED API Platform - Echometer alert: Catalog service instance is down",
-    "layout": "default"
-  },
-  {
     "runbook-name": "incidentmgmt.slow",
     "type": "Alert",
     "description": "Runbook to describe the response for slow response times from Incident Management API service.",
@@ -414,12 +405,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "Runbook_Scorecard_UI.md",
+    "runbook-name": "Runbook API Health API Service Is Removed From Catalog",
     "type": "Alert",
-    "description": "General RMC Operations UI Support",
-    "related-service": "operations-ui",
-    "link": "/docs/runbooks/apiplatform/Runbook_RMC_Operations_UI.html",
-    "title": "RMC Operations UI Support",
+    "description": "Runbook API Health API Service Is Removed From Catalog",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Runbook_API_Health_API_Service_Is_Removed_From_Catalog.html",
+    "title": "Runbook API Health API Service Is Removed From Catalog",
     "layout": "default"
   },
   {
@@ -441,6 +432,15 @@
     "layout": "default"
   },
   {
+    "runbook-name": "Runbook_Scorecard_UI_Failure.md",
+    "type": "Alert",
+    "description": "Pinging Scorecard Frontend health check failed",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Runbook_Scorecard_UI_Failure.html",
+    "title": "API Platform - Scorecard UI Frontend is down",
+    "layout": "default"
+  },
+  {
     "runbook-name": "api.pnp-notifications-adapter-mq.down",
     "type": "Alert",
     "description": "Runbook to drill into errors related to MQ via the Notifications Adapter",
@@ -459,21 +459,21 @@
     "layout": "default"
   },
   {
-    "runbook-name": "Bastion_Host_Not_Reporting",
-    "type": "Alert",
-    "description": "This alert will be triggered when a bastion host is not reporting",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Bastion_Host_Not_Reporting.html",
-    "title": "API Platform - Bastion Host is not reporting",
-    "layout": "default"
-  },
-  {
     "runbook-name": "api.incidentmgmt-api.lowusage",
     "type": "Alert",
     "description": "This alert indicates that there is a very low number of incoming requests on Incident Management/concerns API.",
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/api.incidentmgmt-api.lowusage.html",
     "title": "Low usage detected for Incident Management/concerns API",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "icd-postgres-monitoring",
+    "type": "Alert",
+    "description": "OSS IBM Cloud Databases for PostgreSQL Monitoring runbook",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Runbook-icd-postgres-monitoring.html",
+    "title": "OSS IBM Cloud Databases for PostgreSQL Monitoring runbook",
     "layout": "default"
   },
   {
@@ -549,6 +549,15 @@
     "layout": "default"
   },
   {
+    "runbook-name": "api.iam-authorize_iamHealthCheckFailure",
+    "type": "Alert",
+    "description": "This alert will be triggered when an IAM health check fails",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/api.iam-authorize_iamHealthCheckFailure.html",
+    "title": "IAM health check failed",
+    "layout": "default"
+  },
+  {
     "runbook-name": "api-platform-component-down-in-k8s",
     "type": "Alert",
     "description": "API Platform component down in Kubernetes",
@@ -576,6 +585,15 @@
     "layout": "default"
   },
   {
+    "runbook-name": "Runbook-Apiplatform-EchometerAlert-Kongservice-instance-is-down",
+    "type": "Alert",
+    "description": "This alert will be triggered if the doctor_kong or api_gateway did not work properly.",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Runbook-Apiplatform-EchometerAlert-Kongservice-instance-is-down.html",
+    "title": "RETIRED API Platform - Echometer alert: Kong service is down",
+    "layout": "default"
+  },
+  {
     "runbook-name": "api.pnp-notifications-adapter.down",
     "type": "Alert",
     "description": "Top level runbook to drill into problems related to the notifications adapter which is responsible for pulling Announcement and Security Notice notifications.",
@@ -585,30 +603,30 @@
     "layout": "default"
   },
   {
-    "runbook-name": "api.iam-authorize_iamHealthCheckFailure",
-    "type": "Alert",
-    "description": "This alert will be triggered when an IAM health check fails",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/api.iam-authorize_iamHealthCheckFailure.html",
-    "title": "IAM health check failed",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "OSS_Cloud_Account_Admins",
-    "type": "Informational",
-    "description": "Members of the OSS team that have OSS Cloud account admin access",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/OSS_Cloud_Account_Admins.html",
-    "title": "OSS Cloud Account Admins",
-    "layout": "default"
-  },
-  {
     "runbook-name": "RETIRED - api.kong-db-con.failed",
     "type": "Alert",
     "description": "RETIRED - This alert will be triggered if the Kong database can not be reached",
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/api.kong-db-con.failed.html",
     "title": "RETIRED - API Platform - Kong DB connection failed",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Echometer URL Down Failure",
+    "type": "Alert",
+    "description": "RETIRED Echometer URL Down Failure.",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Runbook-Echometer-URL-Down-Failure.html",
+    "title": "RETIRED Echometer URL Down Failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Bastion_Host_Not_Reporting",
+    "type": "Alert",
+    "description": "This alert will be triggered when a bastion host is not reporting",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Bastion_Host_Not_Reporting.html",
+    "title": "API Platform - Bastion Host is not reporting",
     "layout": "default"
   },
   {
@@ -666,6 +684,15 @@
     "layout": "default"
   },
   {
+    "runbook-name": "icd-postgres-promote-read-replica",
+    "type": "Informational",
+    "description": "How to create and promote an ICD PostgreSQL instance a read-only-replica to a Leader",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/Runbook-icd-promote-postgres-read-replica.html",
+    "title": "How to create and promote an ICD PostgreSQL instance a read-only-replica to a Leader",
+    "layout": "default"
+  },
+  {
     "runbook-name": "incidentmgmt.down",
     "type": "Alert",
     "description": "This alert indicates that an instance of the Incident Management API service went down and does not start/restart, or unexpectedly restarts.",
@@ -699,6 +726,15 @@
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/rmc.operations-ui.healthz.failed.html",
     "title": "RMC Operations UI Healthz Failure",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Runbook_Scorecard_UI.md",
+    "type": "Alert",
+    "description": "General Scorecard UI support",
+    "related-service": "scorecard",
+    "link": "/docs/runbooks/apiplatform/Runbook_Scorecard_UI.html",
+    "title": "Scorecard UI Support",
     "layout": "default"
   },
   {
@@ -747,15 +783,6 @@
     "layout": "default"
   },
   {
-    "runbook-name": "Runbook-Apiplatform-EchometerAlert-Kongservice-instance-is-down",
-    "type": "Alert",
-    "description": "This alert will be triggered if the doctor_kong or api_gateway did not work properly.",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Runbook-Apiplatform-EchometerAlert-Kongservice-instance-is-down.html",
-    "title": "RETIRED API Platform - Echometer alert: Kong service is down",
-    "layout": "default"
-  },
-  {
     "runbook-name": "api.operations-backend.healthz.failed",
     "type": "Alert",
     "description": "This alert will be triggered when calling the RMC Operations Backend healthz API failed",
@@ -771,15 +798,6 @@
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/Runbook-Apiplatform-EchometerAlert-Keyservice-instance-is-down.html",
     "title": "RETIRED API Platform - Echometer alert: Key service instance is down",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Runbook_API_PLATFORM_Healthz_Failure",
-    "type": "Alert",
-    "description": "API PLATFORM Healthz Failures",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Runbook_API_PLATFORM_Healthz_Failure.html",
-    "title": "API PLATFORM Healthz Failures",
     "layout": "default"
   },
   {
@@ -828,15 +846,6 @@
     "layout": "default"
   },
   {
-    "runbook-name": "icd-postgres-monitoring",
-    "type": "Alert",
-    "description": "OSS IBM Cloud Databases for PostgreSQL Monitoring runbook",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Runbook-icd-postgres-monitoring.html",
-    "title": "OSS IBM Cloud Databases for PostgreSQL Monitoring runbook",
-    "layout": "default"
-  },
-  {
     "runbook-name": "api.pnp-deadletter-consumer",
     "type": "Alert",
     "description": "This alert will be triggered when all instances of the PnP/EDB Deadletter Consumer service is experiencing issues",
@@ -846,30 +855,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "How to rotate credentials for Scorecard Function ID",
-    "type": "Informational",
-    "description": "How to rotate credentials of Scorecard Function ID",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/scorecard-FID-credential-rotation.html",
-    "title": "How to rotate credentials for Scorecard Function ID",
-    "layout": "default"
-  },
-  {
     "runbook-name": "cicd-duties-responsibilities-common-issues",
     "type": "Informational",
     "description": "CICD duties, responsibilities and common issues",
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/cicd-duties-responsibilities-common-issues.html",
     "title": "CICD duties, responsibilities and common issues",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Echometer URL Down Failure",
-    "type": "Alert",
-    "description": "RETIRED Echometer URL Down Failure.",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Runbook-Echometer-URL-Down-Failure.html",
-    "title": "RETIRED Echometer URL Down Failure",
     "layout": "default"
   },
   {
@@ -909,21 +900,30 @@
     "layout": "default"
   },
   {
+    "runbook-name": "Request access to the Privileged ID Management (PIM) in AH",
+    "type": "Informational",
+    "description": "Request access the Privileged ID Management (PIM)",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform//Request_PIM_Access_In_AH.html",
+    "title": "Request access to the Privileged ID Management (PIM) in AH",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "OSS_Cloud_Account_Admins",
+    "type": "Informational",
+    "description": "Members of the OSS team that have OSS Cloud account admin access",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/OSS_Cloud_Account_Admins.html",
+    "title": "OSS Cloud Account Admins",
+    "layout": "default"
+  },
+  {
     "runbook-name": "api.edb-adapter-sysdig.error",
     "type": "Alert",
     "description": "This alert will be triggered when the EDB Sysdig Adapter did not work properly",
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/api.edb-adapter-sysdig.error.html",
     "title": "EDB Sysdig Adapter down and other issues",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "icd-postgres-promote-read-replica",
-    "type": "Informational",
-    "description": "How to create and promote an ICD PostgreSQL instance a read-only-replica to a Leader",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/Runbook-icd-promote-postgres-read-replica.html",
-    "title": "How to create and promote an ICD PostgreSQL instance a read-only-replica to a Leader",
     "layout": "default"
   },
   {
@@ -936,174 +936,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "PNP_logDNA_links",
+    "runbook-name": "Add_New_API_to_APIPlatform",
     "type": "Informational",
-    "description": "logDNA URL for each PNP component",
+    "description": "How to Add a New API to API Platform",
     "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/PNP_logDNA_links.html",
-    "title": "logDNA URL for each PNP component",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "API_PnP_credentials",
-    "type": "Informational",
-    "description": "List of PnP components and their credentials",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/API_PnP_credentials.html",
-    "title": "List of PnP components and their credentials",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Contact_CIS_team",
-    "type": "Informational",
-    "description": "Contacting IBM CIS team",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/Contact_CIS_team.html",
-    "title": "Contact IBM Cloud Internet Services team",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Configuring_kubectl_all_regions",
-    "type": "Informational",
-    "description": "Configure kubectl to connect to specific regions",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/Configuring_kubectl_all_regions.html",
-    "title": "Configure kubectl to connect to specific regions",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Kong_UI_Request_Access_Wukong_Portal",
-    "type": "Informational",
-    "description": "How to request Wukong access",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/Kong_UI_Request_Access_Wukong_Portal.html",
-    "title": "RETIRED - How To Request Access to Wukong Portal",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "API_PnP_Level2",
-    "type": "Informational",
-    "description": "API Platform/PnP Level 2 On-call Overview",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/API_PnP_Level2.html",
-    "title": "API Platform/PnP Level 2 On-call Overview",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Deploy Certificates to Nginx servers",
-    "type": "Informational",
-    "description": "Provide steps on how to deploy certificates Nginx servers",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/How_to_deploy_certificates_to_Nginx_servers.html",
-    "title": "How to request and deploy certificates to Nginx servers",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "RETIRED - API_Platform_Postgres",
-    "type": "Informational",
-    "description": "RETIRED - How to access the OSS Postgres and HAProxy servers",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/API_Platform_Postgres.html",
-    "title": "RETIRED - How to access the OSS Postgres and HAProxy servers",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Contact_RabbitMQ_team",
-    "type": "Informational",
-    "description": "Getting support from RabbitMQ team",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/Contact_RabbitMQ_team.html",
-    "title": "Contact RabbitMQ support team",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Deploy Certificates to CIS and Istio clusters",
-    "type": "Informational",
-    "description": "Provide steps on how to request and deploy certificates to CIS and Istio clusters",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/How_to_deploy_certificates_to_Itsio_clusters.html",
-    "title": "How to request and deploy certificates to CIS and Istio clusters",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "How to move to get access to Cases",
-    "type": "Informational",
-    "description": "Provides steps to provide someone with access to read or write Cases via PnP API",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/How_to_get_access_to_Cases.html",
-    "title": "How to get access to Cases",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "API_Platform_ICD_Postgres",
-    "type": "Informational",
-    "description": "How to access the OSS IBM Cloud Databases (ICD) for PostgreSQL",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/API_Platform_ICD_Postgres.html",
-    "title": "How to access the OSS IBM Cloud Databases for PostgreSQL",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Contact_Technical_Foundation",
-    "type": "Informational",
-    "description": "Contacting Technical Foundation",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/Contact_Technical_Foundation.html",
-    "title": "Contact Technical Foundation",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "API_Ops_Plan.md",
-    "type": "Informational",
-    "description": "Procedures and information required to support OSS API Platform",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/API_Ops_Plan.html",
-    "title": "API Operations Plan",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PnP_Issue_API_Key",
-    "type": "Informational",
-    "description": "How to issue a PnP API key to an end user",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/PnP_Issue_API_Key.html",
-    "title": "RETIRED - How to issue a PnP API key to an end user",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "How to move to an IAM API Keys",
-    "type": "Informational",
-    "description": "Provides steps on how to request an IAM API Keys",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/How_to_move_to_IAM_API_Keys.html",
-    "title": "How to move to an IAM API Keys",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "APIs_logDNA_links",
-    "type": "Informational",
-    "description": "logDNA URL for each API component",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/APIs_logDNA_links.html",
-    "title": "logDNA URL for each API component",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Contact_OSS_DEV_Team",
-    "type": "Informational",
-    "description": "Find out who to contact on the OSS DEV Team.",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/ibm/Contact_OSS_DEV_Team.html",
-    "title": "Contacting the OSS DEV Team",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "How to setup cross-region replication for a Cloudant database",
-    "type": "Informational",
-    "description": "How to setup cross-region replication for a Cloudant database",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/Setup_Cloudant_Replication.html",
-    "title": "How to setup cross-region replication for a Cloudant database",
+    "link": "/docs/runbooks/apiplatform/How_To/Add_New_API_to_APIPlatform.html",
+    "title": "Add New API to API Platform",
     "layout": "default"
   },
   {
@@ -1116,12 +954,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "How to rotate credentials for EDB",
+    "runbook-name": "How to rotate credentials for PnP",
     "type": "Informational",
-    "description": "How to rotate credentials For EDB",
+    "description": "How to rotate credentials For PnP",
     "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/Rotate_EDB_Secrets.html",
-    "title": "How to rotate credentials for EDB",
+    "link": "/docs/runbooks/apiplatform/How_To/Rotate_PnP_secrets.html",
+    "title": "How to rotate credentials for PnP",
     "layout": "default"
   },
   {
@@ -1134,75 +972,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "RabbitMQ_for_OSS",
-    "type": "Informational",
-    "description": "RabbitMQ setup and support for OSS tooling",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/RabbitMQ_for_OSS.html",
-    "title": "RabbitMQ Instance URLs and Secrets for OSS Tooling",
-    "layout": "default"
-  },
-  {
     "runbook-name": "TIPIncidentManagement_AnalyzingServiceStartError",
     "type": "Informational",
     "description": "Using the TIP Incident Management API - Analyzing Service Start/Restart Issues.",
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/How_To/TIPIncidentManagement_AnalyzingServiceStartError.html",
     "title": "TIP Incident Management API - Analyzing Service Start/Restart Issues",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "How to rotate credentials for PnP",
-    "type": "Informational",
-    "description": "How to rotate credentials For PnP",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/Rotate_PnP_secrets.html",
-    "title": "How to rotate credentials for PnP",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "ServiceNow-URLs",
-    "type": "Informational",
-    "description": "ServiceNow URLs for each environment",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/ServiceNow-URLs.html",
-    "title": "ServiceNow URLs for each environment",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Cloudant_for_OSS",
-    "type": "Informational",
-    "description": "Cloudant setup and support for OSS tooling",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/Cloudant_for_OSS.html",
-    "title": "Cloudant Instance URLs for OSS Tooling",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "APIs_Healthz_Path",
-    "type": "Informational",
-    "description": "URL's of all healthz paths for each API",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/APIs_Healthz_Path.html",
-    "title": "URL's of all healthz paths for each API",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "TIPIncidentManagement_FindingLogsInKibana",
-    "type": "Informational",
-    "description": "Instructions for finding and accessing all available Incident Management API service log files in Kibana.",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/TIPIncidentManagement_FindingLogsInKibana.html",
-    "title": "TIP Incident Management API - Finding Logs in Kibana",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "pnp-rabbitmq-URLs",
-    "type": "Informational",
-    "description": "PnP RabbitMQ URLs for each region and environment",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/pnp-rabbitmq-URLs.html",
-    "title": "RETIRED - PnP RabbitMQ URLs for each region and environment",
     "layout": "default"
   },
   {
@@ -1215,39 +990,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "How to add new segment access group for EDB",
+    "runbook-name": "pnp-rabbitmq-URLs",
     "type": "Informational",
-    "description": "How to add new segment access group for EDB when a new segment is onboarded",
-    "related-service": "edb-api-oss",
-    "link": "/docs/runbooks/apiplatform/How_To/EDB_Add_New_Segment_Group.html",
-    "title": "How to add new segment access group for EDB",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Add_New_Service_Entry_to_APIPlatform",
-    "type": "Informational",
-    "description": "How to Add a New Service Entry to API Platform",
+    "description": "PnP RabbitMQ URLs for each region and environment",
     "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/Add_New_Service_Entry_to_APIPlatform.html",
-    "title": "Add New Service Entry to API Platform",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Sysdig alerts management",
-    "type": "Informational",
-    "description": "Describe how maintain and manage Sysdig alerts set in ICD services such as Redis, RabbitMQ",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/sysdig_alerts_management.html",
-    "title": "Sysdig alerts management",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Add_New_API_to_APIPlatform",
-    "type": "Informational",
-    "description": "How to Add a New API to API Platform",
-    "related-service": "tip-api-platform",
-    "link": "/docs/runbooks/apiplatform/How_To/Add_New_API_to_APIPlatform.html",
-    "title": "Add New API to API Platform",
+    "link": "/docs/runbooks/apiplatform/How_To/pnp-rabbitmq-URLs.html",
+    "title": "RETIRED - PnP RabbitMQ URLs for each region and environment",
     "layout": "default"
   },
   {
@@ -1260,12 +1008,102 @@
     "layout": "default"
   },
   {
+    "runbook-name": "TIPIncidentManagement_FindingLogsInKibana",
+    "type": "Informational",
+    "description": "Instructions for finding and accessing all available Incident Management API service log files in Kibana.",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/How_To/TIPIncidentManagement_FindingLogsInKibana.html",
+    "title": "TIP Incident Management API - Finding Logs in Kibana",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to rotate credentials for EDB",
+    "type": "Informational",
+    "description": "How to rotate credentials For EDB",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/How_To/Rotate_EDB_Secrets.html",
+    "title": "How to rotate credentials for EDB",
+    "layout": "default"
+  },
+  {
     "runbook-name": "APIs_EDB_Healthz_Paths",
     "type": "Informational",
     "description": "URL's of all healthz paths for each EDB API",
     "related-service": "tip-api-platform",
     "link": "/docs/runbooks/apiplatform/How_To/APIs_EDB_Healthz_Paths.html",
     "title": "URL's of all healthz paths for each EDB API",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Add_New_Service_Entry_to_APIPlatform",
+    "type": "Informational",
+    "description": "How to Add a New Service Entry to API Platform",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/How_To/Add_New_Service_Entry_to_APIPlatform.html",
+    "title": "Add New Service Entry to API Platform",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to add new segment access group for EDB",
+    "type": "Informational",
+    "description": "How to add new segment access group for EDB when a new segment is onboarded",
+    "related-service": "edb-api-oss",
+    "link": "/docs/runbooks/apiplatform/How_To/EDB_Add_New_Segment_Group.html",
+    "title": "How to add new segment access group for EDB",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "RabbitMQ_for_OSS",
+    "type": "Informational",
+    "description": "RabbitMQ setup and support for OSS tooling",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/How_To/RabbitMQ_for_OSS.html",
+    "title": "RabbitMQ Instance URLs and Secrets for OSS Tooling",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "ServiceNow-URLs",
+    "type": "Informational",
+    "description": "ServiceNow URLs for each environment",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/How_To/ServiceNow-URLs.html",
+    "title": "ServiceNow URLs for each environment",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "APIs_Healthz_Path",
+    "type": "Informational",
+    "description": "URL's of all healthz paths for each API",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/How_To/APIs_Healthz_Path.html",
+    "title": "URL's of all healthz paths for each API",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "How to setup cross-region replication for a Cloudant database",
+    "type": "Informational",
+    "description": "How to setup cross-region replication for a Cloudant database",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/How_To/Setup_Cloudant_Replication.html",
+    "title": "How to setup cross-region replication for a Cloudant database",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Sysdig alerts management",
+    "type": "Informational",
+    "description": "Describe how maintain and manage Sysdig alerts set in ICD services such as Redis, RabbitMQ",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/How_To/sysdig_alerts_management.html",
+    "title": "Sysdig alerts management",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Cloudant_for_OSS",
+    "type": "Informational",
+    "description": "Cloudant setup and support for OSS tooling",
+    "related-service": "tip-api-platform",
+    "link": "/docs/runbooks/apiplatform/How_To/Cloudant_for_OSS.html",
+    "title": "Cloudant Instance URLs for OSS Tooling",
     "layout": "default"
   }
 ]

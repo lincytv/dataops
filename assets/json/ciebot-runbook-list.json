@@ -1,56 +1,11 @@
 [
   {
-    "runbook-name": "BOT OAuth Guide",
+    "runbook-name": "CIEBOT INCB User Guide",
     "type": "Informational",
-    "description": "Steps to regenerate bot OAuth tokens",
+    "description": "CIEBOT INC User Guide",
     "related-service": "ciebot",
-    "link": "/docs/runbooks/ciebot/BOT_OAuth_Guide.html",
-    "title": "Guide to generate OAuth tokens",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "CIEBot Disaster Recovery Runbook",
-    "type": "Informational",
-    "description": "Steps to perform for disaster recovery or db failures",
-    "related-service": "ciebot",
-    "link": "/docs/runbooks/ciebot/CIEBot_Disaster_Recovery.html",
-    "title": "CIEBot Disaster Recovery Runbook",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "CIEBOT CIE User Guide",
-    "type": "Informational",
-    "description": "CIEBOT CIE  Guide",
-    "related-service": "ciebot",
-    "link": "/docs/runbooks/ciebot/CIEBot_CIE_User_Guide.html",
-    "title": "CIEBOT CIE User Guide",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "CIEBOT and GOBOT Monitoring",
-    "type": "Informational",
-    "description": "CIEBOT and GOBOT monitor policy, notification, and automated test cases",
-    "related-service": "ciebot",
-    "link": "/docs/runbooks/ciebot/Bots_Auto_Tests.html",
-    "title": "Monitor CIEBOT and GOBOT in New Relic",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Bot Developer's Manual",
-    "type": "Informational",
-    "description": "Internal design and utilities for bot admins and developers",
-    "related-service": "ciebot",
-    "link": "/docs/runbooks/ciebot/Dev_Manual.html",
-    "title": "Bot Developer Manual",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Gobot User Guide",
-    "type": "Informational",
-    "description": "Gobot User Guide",
-    "related-service": "ciebot",
-    "link": "/docs/runbooks/ciebot/Gobot_User_Guide.html",
-    "title": "Gobot User Guide",
+    "link": "/docs/runbooks/ciebot/CIEBot_INCB_User_Guide.html",
+    "title": "CIEBOT INCB User Guide",
     "layout": "default"
   },
   {
@@ -63,6 +18,24 @@
     "layout": "default"
   },
   {
+    "runbook-name": "CIEBOT and GOBOT Monitoring",
+    "type": "Informational",
+    "description": "CIEBOT and GOBOT monitor policy, notification, and automated test cases",
+    "related-service": "ciebot",
+    "link": "/docs/runbooks/ciebot/Bots_Auto_Tests.html",
+    "title": "Monitor CIEBOT and GOBOT in New Relic",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "CIEBOT CIE User Guide",
+    "type": "Informational",
+    "description": "CIEBOT CIE  Guide",
+    "related-service": "ciebot",
+    "link": "/docs/runbooks/ciebot/CIEBot_CIE_User_Guide.html",
+    "title": "CIEBOT CIE User Guide",
+    "layout": "default"
+  },
+  {
     "runbook-name": "Chat Bots Overview",
     "type": "Informational",
     "description": "Chat Bots Overview",
@@ -72,21 +45,21 @@
     "layout": "default"
   },
   {
-    "runbook-name": "CIEBOT General User Guide",
+    "runbook-name": "CIEBot Disaster Recovery Runbook",
     "type": "Informational",
-    "description": "CIEBOT General User Guide",
+    "description": "Steps to perform for disaster recovery or db failures",
     "related-service": "ciebot",
-    "link": "/docs/runbooks/ciebot/CIEBot_General_User_Guide.html",
-    "title": "CIEBOT General User Guide",
+    "link": "/docs/runbooks/ciebot/CIEBot_Disaster_Recovery.html",
+    "title": "CIEBot Disaster Recovery Runbook",
     "layout": "default"
   },
   {
-    "runbook-name": "CIEBOT INCB User Guide",
+    "runbook-name": "BOT OAuth Guide",
     "type": "Informational",
-    "description": "CIEBOT INC User Guide",
+    "description": "Steps to regenerate bot OAuth tokens",
     "related-service": "ciebot",
-    "link": "/docs/runbooks/ciebot/CIEBot_INCB_User_Guide.html",
-    "title": "CIEBOT INCB User Guide",
+    "link": "/docs/runbooks/ciebot/BOT_OAuth_Guide.html",
+    "title": "Guide to generate OAuth tokens",
     "layout": "default"
   },
   {
@@ -99,12 +72,39 @@
     "layout": "default"
   },
   {
+    "runbook-name": "Gobot User Guide",
+    "type": "Informational",
+    "description": "Gobot User Guide",
+    "related-service": "ciebot",
+    "link": "/docs/runbooks/ciebot/Gobot_User_Guide.html",
+    "title": "Gobot User Guide",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "CIEBOT General User Guide",
+    "type": "Informational",
+    "description": "CIEBOT General User Guide",
+    "related-service": "ciebot",
+    "link": "/docs/runbooks/ciebot/CIEBot_General_User_Guide.html",
+    "title": "CIEBOT General User Guide",
+    "layout": "default"
+  },
+  {
     "runbook-name": "Runbook CIEBot Gobot Incidents",
     "type": "Alert",
     "description": "CIEBot Gobot Alerts",
     "related-service": "ciebot",
     "link": "/docs/runbooks/ciebot/Runbook_CIEBot.html",
     "title": "CIEBot Gobot Incidents",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Bot Developer's Manual",
+    "type": "Informational",
+    "description": "Internal design and utilities for bot admins and developers",
+    "related-service": "ciebot",
+    "link": "/docs/runbooks/ciebot/Dev_Manual.html",
+    "title": "Bot Developer Manual",
     "layout": "default"
   }
 ]

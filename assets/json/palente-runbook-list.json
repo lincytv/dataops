@@ -9,51 +9,6 @@
     "layout": "default"
   },
   {
-    "runbook-name": "PHE Healthz Liveness",
-    "type": "Alert",
-    "description": "PHE Healthz Liveness",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_Healthz_Liveness.html",
-    "title": "PHE Healthz Liveness",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PHE Circuit Breaker",
-    "type": "Alert",
-    "description": "PHE Circuit Breaker",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_Circuit_Breaker.html",
-    "title": "PHE Circuit Breaker",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PHE Credentials failed",
-    "type": "Information",
-    "description": "Describe the steps to follow when the credentials to connect to TIP IM API failed preventing PHE to connect and create a pCIE",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_Credentials_Fails.html",
-    "title": "PHE Credentials failed",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PHE ELK Rotate Secrets",
-    "type": "Informational",
-    "description": "PHE ELK Rotate Secrets",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_ELK_Rotate_Secrets.html",
-    "title": "PHE ELK Rotate Secrets",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PHE Data Store Error Read",
-    "type": "Alert",
-    "description": "PHE Data Store Error Read",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_Data_Store_Error_Read.html",
-    "title": "PHE Data Store Error Read",
-    "layout": "default"
-  },
-  {
     "runbook-name": "pCIE created by PHE with the wrong audience",
     "type": "Alert",
     "description": "Describe the steps to follow when an Incident.audience set to 'not set' by PHE",
@@ -72,21 +27,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "PHE heartbeat",
+    "runbook-name": "PHE Circuit Breaker",
     "type": "Alert",
-    "description": "PHE heartbeat",
+    "description": "PHE Circuit Breaker",
     "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_heartbeat.html",
-    "title": "PHE heartbeat",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PHE Individual Trans Loops",
-    "type": "Alert",
-    "description": "PHE Individual Trans Loops",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_Individual_Trans_Loops.html",
-    "title": "PHE Individual Trans Loops",
+    "link": "/docs/runbooks/palente/Runbook_PHE_Circuit_Breaker.html",
+    "title": "PHE Circuit Breaker",
     "layout": "default"
   },
   {
@@ -99,57 +45,12 @@
     "layout": "default"
   },
   {
-    "runbook-name": "PHE MongoDB Awareness",
+    "runbook-name": "PHE Data Store Error Read",
     "type": "Alert",
-    "description": "PHE MongoDB Awareness",
+    "description": "PHE Data Store Error Read",
     "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_MongoDB_Awareness.html",
-    "title": "PHE MongoDB Awareness",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PHE Data Store Error Write",
-    "type": "Alert",
-    "description": "PHE Data Store Error Write",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_Data_Store_Error_Write.html",
-    "title": "PHE Data Store Error Write",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PHE ServiceNow Ingestor",
-    "type": "Alert",
-    "description": "PHE ServiceNow",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_ServiceNow.html",
-    "title": "PHE ServiceNow",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PHE Configuration Rules",
-    "type": "Alert",
-    "description": "PHE failed to load configuration rules",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_Config_Rule_Error.html",
-    "title": "PHE Configuration Rule",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "Palente and in general tips and techniques for operations",
-    "type": "Informational",
-    "description": "A list of tips and techniques useful for on-call duties",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Palente_Tips_and_Techniques.html",
-    "title": "Tips and techniques",
-    "layout": "default"
-  },
-  {
-    "runbook-name": "PHE Counters",
-    "type": "Alert",
-    "description": "PHE Counters",
-    "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_Counters.html",
-    "title": "PHE Counters",
+    "link": "/docs/runbooks/palente/Runbook_PHE_Data_Store_Error_Read.html",
+    "title": "PHE Data Store Error Read",
     "layout": "default"
   },
   {
@@ -162,6 +63,51 @@
     "layout": "default"
   },
   {
+    "runbook-name": "PHE Individual Trans Loops",
+    "type": "Alert",
+    "description": "PHE Individual Trans Loops",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_PHE_Individual_Trans_Loops.html",
+    "title": "PHE Individual Trans Loops",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "PHE heartbeat",
+    "type": "Alert",
+    "description": "PHE heartbeat",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_PHE_heartbeat.html",
+    "title": "PHE heartbeat",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "PHE Counters",
+    "type": "Alert",
+    "description": "PHE Counters",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_PHE_Counters.html",
+    "title": "PHE Counters",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "PHE MongoDB Awareness",
+    "type": "Alert",
+    "description": "PHE MongoDB Awareness",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_PHE_MongoDB_Awareness.html",
+    "title": "PHE MongoDB Awareness",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "PHE Credentials failed",
+    "type": "Information",
+    "description": "Describe the steps to follow when the credentials to connect to TIP IM API failed preventing PHE to connect and create a pCIE",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_PHE_Credentials_Fails.html",
+    "title": "PHE Credentials failed",
+    "layout": "default"
+  },
+  {
     "runbook-name": "PHE EDB Ingestor",
     "type": "Alert",
     "description": "PHE EDB Ingestor",
@@ -171,12 +117,57 @@
     "layout": "default"
   },
   {
-    "runbook-name": "PHE Rules Healthz",
+    "runbook-name": "PHE Configuration Rules",
     "type": "Alert",
-    "description": "PHE Rules Healthz",
+    "description": "PHE failed to load configuration rules",
     "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_PHE_Rules_Healthz.html",
-    "title": "PHE Rules Healthz",
+    "link": "/docs/runbooks/palente/Runbook_PHE_Config_Rule_Error.html",
+    "title": "PHE Configuration Rule",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "api-oss-csd-memory-high",
+    "type": "Alert",
+    "description": "This alert will be triggered when a PHE pod is using more than 80% or 90% of allocated memory",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_api-oss-csd-memory-high.html",
+    "title": "Palente - PHE service memory utilization high",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "PHE ELK Rotate Secrets",
+    "type": "Informational",
+    "description": "PHE ELK Rotate Secrets",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_PHE_ELK_Rotate_Secrets.html",
+    "title": "PHE ELK Rotate Secrets",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "PHE ServiceNow Ingestor",
+    "type": "Alert",
+    "description": "PHE ServiceNow",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_PHE_ServiceNow.html",
+    "title": "PHE ServiceNow",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "PHE Data Store Error Write",
+    "type": "Alert",
+    "description": "PHE Data Store Error Write",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_PHE_Data_Store_Error_Write.html",
+    "title": "PHE Data Store Error Write",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "Palente and in general tips and techniques for operations",
+    "type": "Informational",
+    "description": "A list of tips and techniques useful for on-call duties",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Palente_Tips_and_Techniques.html",
+    "title": "Tips and techniques",
     "layout": "default"
   },
   {
@@ -189,12 +180,21 @@
     "layout": "default"
   },
   {
-    "runbook-name": "api-oss-csd-memory-high",
+    "runbook-name": "PHE Healthz Liveness",
     "type": "Alert",
-    "description": "This alert will be triggered when a PHE pod is using more than 80% or 90% of allocated memory",
+    "description": "PHE Healthz Liveness",
     "related-service": "palente",
-    "link": "/docs/runbooks/palente/Runbook_api-oss-csd-memory-high.html",
-    "title": "Palente - PHE service memory utilization high",
+    "link": "/docs/runbooks/palente/Runbook_PHE_Healthz_Liveness.html",
+    "title": "PHE Healthz Liveness",
+    "layout": "default"
+  },
+  {
+    "runbook-name": "PHE Rules Healthz",
+    "type": "Alert",
+    "description": "PHE Rules Healthz",
+    "related-service": "palente",
+    "link": "/docs/runbooks/palente/Runbook_PHE_Rules_Healthz.html",
+    "title": "PHE Rules Healthz",
     "layout": "default"
   }
 ]
