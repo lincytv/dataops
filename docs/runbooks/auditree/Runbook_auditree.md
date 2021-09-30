@@ -3,7 +3,7 @@ layout: default
 description: Auditree 
 title: Auditree Runbook
 service: auditree
-runbook-name: Auditree
+runbook-name: auditree
 tags: auditree, sos, vulnarabilities
 link: /auditree/Runbook_auditree.html
 type: Informational
