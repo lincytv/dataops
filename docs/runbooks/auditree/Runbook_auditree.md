@@ -27,9 +27,9 @@ The seed command (discussed in the link above) can be used to setup Auditee repo
 user.name=xxxx
 user.email=xxxx@ca.ibm.com
 
-![SeedInstallationError1]({{site.baseurl}}/assets/images/SeedInstallationError1.png){:width="680px" height="288px"}
+![SeedInstallationError1]({{site.baseurl}}/assets/images/SeedInstallationError1.png){:width="380px" height="388px"}
 
-![SeedInstallationError2]({{site.baseurl}}/assets/images/SeedInstallationError2.png){:width="680px" height="288px"}
+![SeedInstallationError2]({{site.baseurl}}/assets/images/SeedInstallationError2.png){:width="380px" height="388px"}
 
 [https://github.ibm.com/dataops/evidence_locker](https://github.ibm.com/dataops/evidence_locker)
 [https://github.ibm.com/dataops/auditree_config](https://github.ibm.com/dataops/auditree_config)
@@ -50,9 +50,9 @@ After Auditree is setup configure the Auditree_config repo into the Travis.
 
 If something fails in the Travis job, make sure that the environment variables which you are providing is correct.
 
-![TravisEnvironmentalVariables]({{site.baseurl}}/assets/images/TravisEnvironmentalVariables.png){:width="680px" height="288px"}
+![TravisEnvironmentalVariables]({{site.baseurl}}/assets/images/TravisEnvironmentalVariables.png){:width="380px" height="288px"}
 
-![TravisEnvironmentalVariables2]({{site.baseurl}}/assets/images/TravisEnvironmentalVariables2.png){:width="680px" height="288px"}
+![TravisEnvironmentalVariables2]({{site.baseurl}}/assets/images/TravisEnvironmentalVariables2.png){:width="380px" height="288px"}
 
 
 Account API key( prod &test -midtier, datatier) should have access to the following
