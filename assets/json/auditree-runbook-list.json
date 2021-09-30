@@ -1,0 +1,11 @@
+[
+  {
+    "runbook-name": "Auditree",
+    "type": "Informational",
+    "description": "Auditree",
+    "related-service": "auditree",
+    "link": "/docs/runbooks/auditree/Runbook_auditree.html",
+    "title": "Auditree Runbook",
+    "layout": "default"
+  }
+]
